@@ -1,0 +1,836 @@
+[
+  {
+    "slug": "soins-dentaires-specifiques-qui-consulter",
+    "title": "Soins dentaires spécifiques : qui consulter",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/soins-dentaires-specifiques-qui-consulter",
+    "local": "conseils/soins-dentaires-specifiques-qui-consulter.html"
+  },
+  {
+    "slug": "voyages-et-vacances-conseils-pratiques",
+    "title": "Voyages et vacances : conseils pratiques",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/voyages-et-vacances-conseils-pratiques",
+    "local": "conseils/voyages-et-vacances-conseils-pratiques.html"
+  },
+  {
+    "slug": "si-vous-passez-vos-vacances-a-letranger",
+    "title": "Si vous passez vos vacances à l’étranger...",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/si-vous-passez-vos-vacances-a-letranger",
+    "local": "conseils/si-vous-passez-vos-vacances-a-letranger.html"
+  },
+  {
+    "slug": "honoraires-et-remboursements",
+    "title": "Honoraires et remboursements",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/honoraires-et-remboursements",
+    "local": "conseils/honoraires-et-remboursements.html"
+  },
+  {
+    "slug": "hygiene-et-asepsie-au-cabinet",
+    "title": "Hygiène et asepsie au cabinet",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/hygiene-et-asepsie-au-cabinet",
+    "local": "conseils/hygiene-et-asepsie-au-cabinet.html"
+  },
+  {
+    "slug": "la-relation-patientpraticien-au-cabinet-dentaire",
+    "title": "La relation patient/praticien au Cabinet dentaire",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/la-relation-patientpraticien-au-cabinet-dentaire",
+    "local": "conseils/la-relation-patientpraticien-au-cabinet-dentaire.html"
+  },
+  {
+    "slug": "innovations-technologiques",
+    "title": "Innovations technologiques",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/innovations-technologiques",
+    "local": "conseils/innovations-technologiques.html"
+  },
+  {
+    "slug": "lexamen-radiologique-panoramique",
+    "title": "L'examen radiologique panoramique",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/lexamen-radiologique-panoramique",
+    "local": "conseils/lexamen-radiologique-panoramique.html"
+  },
+  {
+    "slug": "quest-ce-que-lorthodontie",
+    "title": "Qu'est-ce que l'orthodontie ?",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/quest-ce-que-lorthodontie",
+    "local": "conseils/quest-ce-que-lorthodontie.html"
+  },
+  {
+    "slug": "orthodontie-et-orthodontistes",
+    "title": "Orthodontie et orthodontistes",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/orthodontie-et-orthodontistes",
+    "local": "conseils/orthodontie-et-orthodontistes.html"
+  },
+  {
+    "slug": "interets-dun-traitement-orthodontique",
+    "title": "Intérêts d'un traitement orthodontique",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/interets-dun-traitement-orthodontique",
+    "local": "conseils/interets-dun-traitement-orthodontique.html"
+  },
+  {
+    "slug": "a-quel-age-consulter-un-orthodontiste",
+    "title": "A quel âge consulter un orthodontiste ?",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/a-quel-age-consulter-un-orthodontiste",
+    "local": "conseils/a-quel-age-consulter-un-orthodontiste.html"
+  },
+  {
+    "slug": "les-differentes-techniques-de-traitement",
+    "title": "Les différentes techniques de traitement",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-differentes-techniques-de-traitement",
+    "local": "conseils/les-differentes-techniques-de-traitement.html"
+  },
+  {
+    "slug": "le-dossier-orthodontique",
+    "title": "Le dossier orthodontique",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/le-dossier-orthodontique",
+    "local": "conseils/le-dossier-orthodontique.html"
+  },
+  {
+    "slug": "lorthodontie-invisible",
+    "title": "L'orthodontie invisible",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/lorthodontie-invisible",
+    "local": "conseils/lorthodontie-invisible.html"
+  },
+  {
+    "slug": "incidents-et-urgences-orthodontiques",
+    "title": "Incidents et urgences orthodontiques",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/incidents-et-urgences-orthodontiques",
+    "local": "conseils/incidents-et-urgences-orthodontiques.html"
+  },
+  {
+    "slug": "impact-de-la-succion-du-pouce-sur-lensemble-bucco-dentaire",
+    "title": "Impact de la succion du pouce sur l’ensemble bucco-dentaire",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/impact-de-la-succion-du-pouce-sur-lensemble-bucco-dentaire",
+    "local": "conseils/impact-de-la-succion-du-pouce-sur-lensemble-bucco-dentaire.html"
+  },
+  {
+    "slug": "lesthetique-du-sourire",
+    "title": "L'esthétique du sourire",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/lesthetique-du-sourire",
+    "local": "conseils/lesthetique-du-sourire.html"
+  },
+  {
+    "slug": "le-blanchiment-des-dents",
+    "title": "Le blanchiment des dents",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/le-blanchiment-des-dents",
+    "local": "conseils/le-blanchiment-des-dents.html"
+  },
+  {
+    "slug": "les-facettes-ceramiques",
+    "title": "Les facettes céramiques",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-facettes-ceramiques",
+    "local": "conseils/les-facettes-ceramiques.html"
+  },
+  {
+    "slug": "greffe-gingivale-a-visee-esthetique",
+    "title": "Greffe gingivale à visée esthétique",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/greffe-gingivale-a-visee-esthetique",
+    "local": "conseils/greffe-gingivale-a-visee-esthetique.html"
+  },
+  {
+    "slug": "lorthodontie",
+    "title": "L'orthodontie",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/lorthodontie",
+    "local": "conseils/lorthodontie.html"
+  },
+  {
+    "slug": "les-colorations-dentaires",
+    "title": "Les colorations dentaires",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-colorations-dentaires",
+    "local": "conseils/les-colorations-dentaires.html"
+  },
+  {
+    "slug": "la-ligne-du-sourire",
+    "title": "La ligne du sourire",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/la-ligne-du-sourire",
+    "local": "conseils/la-ligne-du-sourire.html"
+  },
+  {
+    "slug": "la-dentisterie-adhesive",
+    "title": "La dentisterie adhésive",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/la-dentisterie-adhesive",
+    "local": "conseils/la-dentisterie-adhesive.html"
+  },
+  {
+    "slug": "la-dent-composition-forme-et-fonction",
+    "title": "La dent : composition, forme et fonction",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/la-dent-composition-forme-et-fonction",
+    "local": "conseils/la-dent-composition-forme-et-fonction.html"
+  },
+  {
+    "slug": "conserver-une-haleine-fraiche",
+    "title": "Conserver une haleine fraîche",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/conserver-une-haleine-fraiche",
+    "local": "conseils/conserver-une-haleine-fraiche.html"
+  },
+  {
+    "slug": "les-dents-de-sagesse",
+    "title": "Les dents de sagesse",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-dents-de-sagesse",
+    "local": "conseils/les-dents-de-sagesse.html"
+  },
+  {
+    "slug": "dents-de-ladulte-dents-de-lenfant",
+    "title": "Dents de l'adulte, dents de l'enfant",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/dents-de-ladulte-dents-de-lenfant",
+    "local": "conseils/dents-de-ladulte-dents-de-lenfant.html"
+  },
+  {
+    "slug": "la-plaque-dentaire",
+    "title": "La plaque dentaire",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/la-plaque-dentaire",
+    "local": "conseils/la-plaque-dentaire.html"
+  },
+  {
+    "slug": "le-detartrage",
+    "title": "Le détartrage",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/le-detartrage",
+    "local": "conseils/le-detartrage.html"
+  },
+  {
+    "slug": "hypersensibilite-des-dents",
+    "title": "L'hypersensibilité des dents",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/hypersensibilite-des-dents",
+    "local": "conseils/hypersensibilite-des-dents.html"
+  },
+  {
+    "slug": "les-soins-conservateurs-dentaires",
+    "title": "Les soins conservateurs dentaires",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-soins-conservateurs-dentaires",
+    "local": "conseils/les-soins-conservateurs-dentaires.html"
+  },
+  {
+    "slug": "les-malpositions-dentaires",
+    "title": "Les malpositions dentaires",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-malpositions-dentaires",
+    "local": "conseils/les-malpositions-dentaires.html"
+  },
+  {
+    "slug": "les-dents-des-seniors",
+    "title": "Les dents des seniors",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-dents-des-seniors",
+    "local": "conseils/les-dents-des-seniors.html"
+  },
+  {
+    "slug": "grossesse-et-soins-des-dents",
+    "title": "Grossesse et soins des dents",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/grossesse-et-soins-des-dents",
+    "local": "conseils/grossesse-et-soins-des-dents.html"
+  },
+  {
+    "slug": "les-percees-dentaires",
+    "title": "Les percées dentaires",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-percees-dentaires",
+    "local": "conseils/les-percees-dentaires.html"
+  },
+  {
+    "slug": "leruption-des-dents-de-lait-et-des-dents-definitives",
+    "title": "L’éruption des dents de lait et des dents définitives",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/leruption-des-dents-de-lait-et-des-dents-definitives",
+    "local": "conseils/leruption-des-dents-de-lait-et-des-dents-definitives.html"
+  },
+  {
+    "slug": "premiere-visite-chez-le-dentiste",
+    "title": "Première visite chez le dentiste",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/premiere-visite-chez-le-dentiste",
+    "local": "conseils/premiere-visite-chez-le-dentiste.html"
+  },
+  {
+    "slug": "pourquoi-soigner-les-dents-de-lait-des-enfants",
+    "title": "Pourquoi soigner les dents de lait ?",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/pourquoi-soigner-les-dents-de-lait-des-enfants",
+    "local": "conseils/pourquoi-soigner-les-dents-de-lait-des-enfants.html"
+  },
+  {
+    "slug": "les-caries-du-jeune-enfant",
+    "title": "Les caries du jeune enfant",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-caries-du-jeune-enfant",
+    "local": "conseils/les-caries-du-jeune-enfant.html"
+  },
+  {
+    "slug": "eviter-les-caries-grace-au-scellement-des-sillons",
+    "title": "Eviter les caries grâce au scellement des sillons",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/eviter-les-caries-grace-au-scellement-des-sillons",
+    "local": "conseils/eviter-les-caries-grace-au-scellement-des-sillons.html"
+  },
+  {
+    "slug": "alimentation-et-caries-chez-lenfant",
+    "title": "Alimentation et caries chez l'enfant",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/alimentation-et-caries-chez-lenfant",
+    "local": "conseils/alimentation-et-caries-chez-lenfant.html"
+  },
+  {
+    "slug": "pourquoi-les-sucres-caches-sont-ils-mauvais-pour-les-dents",
+    "title": "Pourquoi les sucres cachés sont-ils mauvais pour les dents ?",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/pourquoi-les-sucres-caches-sont-ils-mauvais-pour-les-dents",
+    "local": "conseils/pourquoi-les-sucres-caches-sont-ils-mauvais-pour-les-dents.html"
+  },
+  {
+    "slug": "la-succion-du-pouce-de-la-tetine-ou-de-la-langue-faut-il-intervenir",
+    "title": "La succion du pouce, de la tétine ou de la langue : faut-il intervenir ?",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/la-succion-du-pouce-de-la-tetine-ou-de-la-langue-faut-il-intervenir",
+    "local": "conseils/la-succion-du-pouce-de-la-tetine-ou-de-la-langue-faut-il-intervenir.html"
+  },
+  {
+    "slug": "le-calendrier-des-soins-de-la-future-maman",
+    "title": "Le calendrier des soins de la future maman",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/le-calendrier-des-soins-de-la-future-maman",
+    "local": "conseils/le-calendrier-des-soins-de-la-future-maman.html"
+  },
+  {
+    "slug": "les-dangers-du-piercing-buccal",
+    "title": "Les dangers du piercing buccal",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-dangers-du-piercing-buccal",
+    "local": "conseils/les-dangers-du-piercing-buccal.html"
+  },
+  {
+    "slug": "les-bijoux-dentaires",
+    "title": "Les bijoux dentaires",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-bijoux-dentaires",
+    "local": "conseils/les-bijoux-dentaires.html"
+  },
+  {
+    "slug": "hypomineralisation-des-molaires-et-incisives-mih-presentation",
+    "title": "Hypominéralisation des molaires et incisives (MIH) : présentation",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/hypomineralisation-des-molaires-et-incisives-mih-presentation",
+    "local": "conseils/hypomineralisation-des-molaires-et-incisives-mih-presentation.html"
+  },
+  {
+    "slug": "hypomineralisation-des-molaires-et-incisives-mih-quels-soins",
+    "title": "Hypominéralisation des molaires et incisives (MIH) : quels soins ?",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/hypomineralisation-des-molaires-et-incisives-mih-quels-soins",
+    "local": "conseils/hypomineralisation-des-molaires-et-incisives-mih-quels-soins.html"
+  },
+  {
+    "slug": "dent-cassee-dent-accidentee",
+    "title": "Dent cassée, dent accidentée",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/dent-cassee-dent-accidentee",
+    "local": "conseils/dent-cassee-dent-accidentee.html"
+  },
+  {
+    "slug": "aliments-allies-et-ennemis",
+    "title": "Aliments: alliés et ennemis",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/aliments-allies-et-ennemis",
+    "local": "conseils/aliments-allies-et-ennemis.html"
+  },
+  {
+    "slug": "bien-etre-les-vitamines-pour-votre-sante-bucco-dentaire",
+    "title": "Bien-être : les vitamines pour votre santé bucco-dentaire",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/bien-etre-les-vitamines-pour-votre-sante-bucco-dentaire",
+    "local": "conseils/bien-etre-les-vitamines-pour-votre-sante-bucco-dentaire.html"
+  },
+  {
+    "slug": "les-concentrations-en-fluor-des-eaux-minerales",
+    "title": "Les concentrations en fluor des eaux minérales",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-concentrations-en-fluor-des-eaux-minerales",
+    "local": "conseils/les-concentrations-en-fluor-des-eaux-minerales.html"
+  },
+  {
+    "slug": "locclusion-dentaire",
+    "title": "L’occlusion dentaire",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/locclusion-dentaire",
+    "local": "conseils/locclusion-dentaire.html"
+  },
+  {
+    "slug": "la-salive-un-protecteur-naturel-de-notre-bouche",
+    "title": "La salive : un protecteur naturel de notre bouche",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/la-salive-un-protecteur-naturel-de-notre-bouche",
+    "local": "conseils/la-salive-un-protecteur-naturel-de-notre-bouche.html"
+  },
+  {
+    "slug": "les-infections-a-distance",
+    "title": "Les infections à distance",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-infections-a-distance",
+    "local": "conseils/les-infections-a-distance.html"
+  },
+  {
+    "slug": "prevention-des-endocardites-infectieuses-dorigine-bucco-dentaire",
+    "title": "Prévention des endocardites infectieuses d’origine bucco-dentaire",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/prevention-des-endocardites-infectieuses-dorigine-bucco-dentaire",
+    "local": "conseils/prevention-des-endocardites-infectieuses-dorigine-bucco-dentaire.html"
+  },
+  {
+    "slug": "la-bouche-miroir-de-notre-etat-de-sante-limpact-du-diabete",
+    "title": "La bouche, miroir de notre état de santé : l'impact du diabète",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/la-bouche-miroir-de-notre-etat-de-sante-limpact-du-diabete",
+    "local": "conseils/la-bouche-miroir-de-notre-etat-de-sante-limpact-du-diabete.html"
+  },
+  {
+    "slug": "la-sante-bucco-dentaire",
+    "title": "La santé bucco-dentaire",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/la-sante-bucco-dentaire",
+    "local": "conseils/la-sante-bucco-dentaire.html"
+  },
+  {
+    "slug": "le-tabac-et-votre-sante-bucco-dentaire",
+    "title": "Le tabac et votre santé bucco-dentaire",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/le-tabac-et-votre-sante-bucco-dentaire",
+    "local": "conseils/le-tabac-et-votre-sante-bucco-dentaire.html"
+  },
+  {
+    "slug": "ronflement-et-apnee-du-sommeil",
+    "title": "Ronflement et apnée du sommeil",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/ronflement-et-apnee-du-sommeil",
+    "local": "conseils/ronflement-et-apnee-du-sommeil.html"
+  },
+  {
+    "slug": "apnee-du-sommeil-le-traitement-par-orthese-dentaire",
+    "title": "Apnée du sommeil : le traitement par orthèse dentaire",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/apnee-du-sommeil-le-traitement-par-orthese-dentaire",
+    "local": "conseils/apnee-du-sommeil-le-traitement-par-orthese-dentaire.html"
+  },
+  {
+    "slug": "le-syndrome-dapnees-obstructives-du-sommeil",
+    "title": "Le Syndrome d’Apnées Obstructives du Sommeil",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/le-syndrome-dapnees-obstructives-du-sommeil",
+    "local": "conseils/le-syndrome-dapnees-obstructives-du-sommeil.html"
+  },
+  {
+    "slug": "salive-chewing-gum-et-sante-bucco-dentaire",
+    "title": "Salive, chewing-gum et santé bucco-dentaire",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/salive-chewing-gum-et-sante-bucco-dentaire",
+    "local": "conseils/salive-chewing-gum-et-sante-bucco-dentaire.html"
+  },
+  {
+    "slug": "la-genetique-dentaire",
+    "title": "La génétique dentaire",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/la-genetique-dentaire",
+    "local": "conseils/la-genetique-dentaire.html"
+  },
+  {
+    "slug": "lagenesie-dentaire",
+    "title": "L’Agénésie dentaire",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/lagenesie-dentaire",
+    "local": "conseils/lagenesie-dentaire.html"
+  },
+  {
+    "slug": "vrai-ou-faux",
+    "title": "Vrai ou faux ?",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/vrai-ou-faux",
+    "local": "conseils/vrai-ou-faux.html"
+  },
+  {
+    "slug": "les-jeux-de-tom-et-lila",
+    "title": "Les jeux de Tom et Lila",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-jeux-de-tom-et-lila",
+    "local": "conseils/les-jeux-de-tom-et-lila.html"
+  },
+  {
+    "slug": "les-10-regles-dor-dune-bonne-hygiene-dentaire",
+    "title": "Les 10 règles d'or d'une bonne hygiène dentaire",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-10-regles-dor-dune-bonne-hygiene-dentaire",
+    "local": "conseils/les-10-regles-dor-dune-bonne-hygiene-dentaire.html"
+  },
+  {
+    "slug": "a-quel-age-et-comment-les-enfants-doivent-ils-se-brosser-les-dents",
+    "title": "A quel âge et comment les enfants doivent-ils se brosser les dents ?",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/a-quel-age-et-comment-les-enfants-doivent-ils-se-brosser-les-dents",
+    "local": "conseils/a-quel-age-et-comment-les-enfants-doivent-ils-se-brosser-les-dents.html"
+  },
+  {
+    "slug": "lhygiene-alimentaire-pour-la-sante-des-dents",
+    "title": "L'hygiène alimentaire pour la santé des dents",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/lhygiene-alimentaire-pour-la-sante-des-dents",
+    "local": "conseils/lhygiene-alimentaire-pour-la-sante-des-dents.html"
+  },
+  {
+    "slug": "hygiene-bucco-dentaire-les-bons-reflexes",
+    "title": "Hygiène bucco-dentaire : les bons réflexes",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/hygiene-bucco-dentaire-les-bons-reflexes",
+    "local": "conseils/hygiene-bucco-dentaire-les-bons-reflexes.html"
+  },
+  {
+    "slug": "brosse-a-dents-manuelle-ou-brosse-a-dents-electrique",
+    "title": "Brosse à dents manuelle ou brosse à dents électrique ?",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/brosse-a-dents-manuelle-ou-brosse-a-dents-electrique",
+    "local": "conseils/brosse-a-dents-manuelle-ou-brosse-a-dents-electrique.html"
+  },
+  {
+    "slug": "choisir-son-dentifrice",
+    "title": "Choisir son dentifrice",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/choisir-son-dentifrice",
+    "local": "conseils/choisir-son-dentifrice.html"
+  },
+  {
+    "slug": "le-fluor-quelles-recommandations",
+    "title": "Le fluor, quelles recommandations ?",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/le-fluor-quelles-recommandations",
+    "local": "conseils/le-fluor-quelles-recommandations.html"
+  },
+  {
+    "slug": "technique-de-brossage-des-dents",
+    "title": "Technique de brossage des dents",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/technique-de-brossage-des-dents",
+    "local": "conseils/technique-de-brossage-des-dents.html"
+  },
+  {
+    "slug": "brossettes-et-fil-dentaire-des-instruments-a-mettre-entre-toutes-les-dents",
+    "title": "Brossettes et fil dentaire : des instruments à mettre entre toutes les dents…",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/brossettes-et-fil-dentaire-des-instruments-a-mettre-entre-toutes-les-dents",
+    "local": "conseils/brossettes-et-fil-dentaire-des-instruments-a-mettre-entre-toutes-les-dents.html"
+  },
+  {
+    "slug": "le-bon-usage-des-bains-de-bouche",
+    "title": "Le bon usage des bains de bouche",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/le-bon-usage-des-bains-de-bouche",
+    "local": "conseils/le-bon-usage-des-bains-de-bouche.html"
+  },
+  {
+    "slug": "la-brosse-a-dents-electrique-un-nettoyage-des-dents-optimal",
+    "title": "La brosse à dents électrique : un nettoyage des dents optimal",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/la-brosse-a-dents-electrique-un-nettoyage-des-dents-optimal",
+    "local": "conseils/la-brosse-a-dents-electrique-un-nettoyage-des-dents-optimal.html"
+  },
+  {
+    "slug": "les-differents-types-de-protheses-dentaires",
+    "title": "Les différents types de prothèses dentaires",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-differents-types-de-protheses-dentaires",
+    "local": "conseils/les-differents-types-de-protheses-dentaires.html"
+  },
+  {
+    "slug": "les-inlays-et-les-onlays",
+    "title": "Les inlays et les onlays",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-inlays-et-les-onlays",
+    "local": "conseils/les-inlays-et-les-onlays.html"
+  },
+  {
+    "slug": "protheses-amovibles-partielles",
+    "title": "Prothèses amovibles partielles",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/protheses-amovibles-partielles",
+    "local": "conseils/protheses-amovibles-partielles.html"
+  },
+  {
+    "slug": "les-bridges-et-ponts-dentaires",
+    "title": "Les bridges et ponts dentaires",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-bridges-et-ponts-dentaires",
+    "local": "conseils/les-bridges-et-ponts-dentaires.html"
+  },
+  {
+    "slug": "les-couronnes-dentaires",
+    "title": "Les couronnes dentaires",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-couronnes-dentaires",
+    "local": "conseils/les-couronnes-dentaires.html"
+  },
+  {
+    "slug": "les-protheses-amovibles-completes",
+    "title": "Les prothèses amovibles complètes",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-protheses-amovibles-completes",
+    "local": "conseils/les-protheses-amovibles-completes.html"
+  },
+  {
+    "slug": "bien-vivre-avec-une-prothese-amovible",
+    "title": "Bien vivre avec une prothèse amovible",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/bien-vivre-avec-une-prothese-amovible",
+    "local": "conseils/bien-vivre-avec-une-prothese-amovible.html"
+  },
+  {
+    "slug": "les-inlay-cores",
+    "title": "Les inlay-cores",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-inlay-cores",
+    "local": "conseils/les-inlay-cores.html"
+  },
+  {
+    "slug": "les-nouveaux-materiaux-utilises-pour-reconstruire-une-dent-abimee",
+    "title": "Les nouveaux matériaux utilisés pour reconstruire une dent abîmée",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-nouveaux-materiaux-utilises-pour-reconstruire-une-dent-abimee",
+    "local": "conseils/les-nouveaux-materiaux-utilises-pour-reconstruire-une-dent-abimee.html"
+  },
+  {
+    "slug": "stabilisation-des-protheses-amovibles-completes",
+    "title": "Stabilisation des prothèses amovibles complètes",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/stabilisation-des-protheses-amovibles-completes",
+    "local": "conseils/stabilisation-des-protheses-amovibles-completes.html"
+  },
+  {
+    "slug": "la-couronne-tout-ceramique",
+    "title": "La couronne tout céramique",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/la-couronne-tout-ceramique",
+    "local": "conseils/la-couronne-tout-ceramique.html"
+  },
+  {
+    "slug": "caries-et-soins-des-caries",
+    "title": "Caries et soins des caries",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/caries-et-soins-des-caries",
+    "local": "conseils/caries-et-soins-des-caries.html"
+  },
+  {
+    "slug": "la-devitalisation",
+    "title": "La dévitalisation",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/la-devitalisation",
+    "local": "conseils/la-devitalisation.html"
+  },
+  {
+    "slug": "les-aphtes",
+    "title": "Les aphtes",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-aphtes",
+    "local": "conseils/les-aphtes.html"
+  },
+  {
+    "slug": "les-abces",
+    "title": "Les abcès",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-abces",
+    "local": "conseils/les-abces.html"
+  },
+  {
+    "slug": "les-mycoses-buccales",
+    "title": "Les mycoses buccales",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-mycoses-buccales",
+    "local": "conseils/les-mycoses-buccales.html"
+  },
+  {
+    "slug": "les-grincements-de-dents-le-bruxisme",
+    "title": "Les grincements de dents : le bruxisme",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-grincements-de-dents-le-bruxisme",
+    "local": "conseils/les-grincements-de-dents-le-bruxisme.html"
+  },
+  {
+    "slug": "bouche-seche-comment-regler-les-problemes-de-debit-salivaire",
+    "title": "Bouche sèche : comment régler les problèmes de débit salivaire ?",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/bouche-seche-comment-regler-les-problemes-de-debit-salivaire",
+    "local": "conseils/bouche-seche-comment-regler-les-problemes-de-debit-salivaire.html"
+  },
+  {
+    "slug": "les-extractions-dentaires",
+    "title": "Les extractions dentaires",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-extractions-dentaires",
+    "local": "conseils/les-extractions-dentaires.html"
+  },
+  {
+    "slug": "comment-garder-le-sourire-apres-une-extraction-dentaire",
+    "title": "Comment garder le sourire après une extraction dentaire ?",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/comment-garder-le-sourire-apres-une-extraction-dentaire",
+    "local": "conseils/comment-garder-le-sourire-apres-une-extraction-dentaire.html"
+  },
+  {
+    "slug": "je-nai-jamais-mal-aux-dents-faut-il-aller-chez-le-dentiste",
+    "title": "Je n'ai jamais mal aux dents, faut-il aller chez le dentiste ?",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/je-nai-jamais-mal-aux-dents-faut-il-aller-chez-le-dentiste",
+    "local": "conseils/je-nai-jamais-mal-aux-dents-faut-il-aller-chez-le-dentiste.html"
+  },
+  {
+    "slug": "les-traumatismes-dentaires",
+    "title": "Les traumatismes dentaires",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-traumatismes-dentaires",
+    "local": "conseils/les-traumatismes-dentaires.html"
+  },
+  {
+    "slug": "conseils-avant-une-intervention-chirurgicale-dentaire",
+    "title": "Conseils avant une intervention chirurgicale dentaire",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/conseils-avant-une-intervention-chirurgicale-dentaire",
+    "local": "conseils/conseils-avant-une-intervention-chirurgicale-dentaire.html"
+  },
+  {
+    "slug": "conseils-apres-une-intervention-chirurgicale-dentaire",
+    "title": "Conseils après une intervention chirurgicale dentaire",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/conseils-apres-une-intervention-chirurgicale-dentaire",
+    "local": "conseils/conseils-apres-une-intervention-chirurgicale-dentaire.html"
+  },
+  {
+    "slug": "lusure-dentaire",
+    "title": "L'usure dentaire",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/lusure-dentaire",
+    "local": "conseils/lusure-dentaire.html"
+  },
+  {
+    "slug": "les-gouttieres-occlusales",
+    "title": "Les gouttières occlusales",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-gouttieres-occlusales",
+    "local": "conseils/les-gouttieres-occlusales.html"
+  },
+  {
+    "slug": "dam-et-articulations-temporo-mandibulaires-atm",
+    "title": "DAM et articulations temporo-mandibulaires (ATM)",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/dam-et-articulations-temporo-mandibulaires-atm",
+    "local": "conseils/dam-et-articulations-temporo-mandibulaires-atm.html"
+  },
+  {
+    "slug": "pourquoi-faut-il-remplacer-une-dent-manquante",
+    "title": "Pourquoi faut-il remplacer une dent manquante ?",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/pourquoi-faut-il-remplacer-une-dent-manquante",
+    "local": "conseils/pourquoi-faut-il-remplacer-une-dent-manquante.html"
+  },
+  {
+    "slug": "la-mylolyse-dentaire-ou-lesion-cervicale-dusure",
+    "title": "La mylolyse dentaire ou lésion cervicale d'usure",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/la-mylolyse-dentaire-ou-lesion-cervicale-dusure",
+    "local": "conseils/la-mylolyse-dentaire-ou-lesion-cervicale-dusure.html"
+  },
+  {
+    "slug": "les-kystes-dentaires",
+    "title": "Les kystes dentaires",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-kystes-dentaires",
+    "local": "conseils/les-kystes-dentaires.html"
+  },
+  {
+    "slug": "endodontie",
+    "title": "Endodontie",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/endodontie",
+    "local": "conseils/endodontie.html"
+  },
+  {
+    "slug": "le-retraitement-endodontique",
+    "title": "Le retraitement endodontique",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/le-retraitement-endodontique",
+    "local": "conseils/le-retraitement-endodontique.html"
+  },
+  {
+    "slug": "quest-ce-quun-implant-dentaire-indications-et-contre-indications",
+    "title": "Qu'est-ce qu'un implant dentaire ? Indications et contre-indications",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/quest-ce-quun-implant-dentaire-indications-et-contre-indications",
+    "local": "conseils/quest-ce-quun-implant-dentaire-indications-et-contre-indications.html"
+  },
+  {
+    "slug": "pose-dimplants-dentaires",
+    "title": "Pose d'implants dentaires",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/pose-dimplants-dentaires",
+    "local": "conseils/pose-dimplants-dentaires.html"
+  },
+  {
+    "slug": "prothese-dentaire-sur-implant",
+    "title": "Prothèse dentaire sur implant",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/prothese-dentaire-sur-implant",
+    "local": "conseils/prothese-dentaire-sur-implant.html"
+  },
+  {
+    "slug": "limplantologie-ou-en-sommes-nous",
+    "title": "L'implantologie : où en sommes-nous ?",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/limplantologie-ou-en-sommes-nous",
+    "local": "conseils/limplantologie-ou-en-sommes-nous.html"
+  },
+  {
+    "slug": "lanalyse-pre-implantaire",
+    "title": "L'analyse pré-implantaire",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/lanalyse-pre-implantaire",
+    "local": "conseils/lanalyse-pre-implantaire.html"
+  },
+  {
+    "slug": "les-greffes-osseuses-pre-implantaires",
+    "title": "Les greffes osseuses pré-implantaires",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-greffes-osseuses-pre-implantaires",
+    "local": "conseils/les-greffes-osseuses-pre-implantaires.html"
+  },
+  {
+    "slug": "limplantologie-assistee-par-ordinateur",
+    "title": "L'implantologie assistée par ordinateur",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/limplantologie-assistee-par-ordinateur",
+    "local": "conseils/limplantologie-assistee-par-ordinateur.html"
+  },
+  {
+    "slug": "la-greffe-osseuse-dapposition-ou-greffe-en-onlay",
+    "title": "La greffe osseuse d'apposition ou greffe en onlay",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/la-greffe-osseuse-dapposition-ou-greffe-en-onlay",
+    "local": "conseils/la-greffe-osseuse-dapposition-ou-greffe-en-onlay.html"
+  },
+  {
+    "slug": "la-greffe-osseuse-intra-sinusienne-ou-sinus-lift",
+    "title": "La greffe osseuse intra sinusienne ou sinus lift",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/la-greffe-osseuse-intra-sinusienne-ou-sinus-lift",
+    "local": "conseils/la-greffe-osseuse-intra-sinusienne-ou-sinus-lift.html"
+  },
+  {
+    "slug": "douleur-et-implants-dentaires",
+    "title": "Douleur et implants dentaires",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/douleur-et-implants-dentaires",
+    "local": "conseils/douleur-et-implants-dentaires.html"
+  },
+  {
+    "slug": "la-maintenance-implantaire",
+    "title": "La maintenance implantaire",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/la-maintenance-implantaire",
+    "local": "conseils/la-maintenance-implantaire.html"
+  },
+  {
+    "slug": "votre-passeport-implantaire",
+    "title": "Votre passeport implantaire",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/votre-passeport-implantaire",
+    "local": "conseils/votre-passeport-implantaire.html"
+  },
+  {
+    "slug": "precautions-a-prendre-pour-un-comblement-de-sinus",
+    "title": "Précautions à prendre pour un comblement de sinus",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/precautions-a-prendre-pour-un-comblement-de-sinus",
+    "local": "conseils/precautions-a-prendre-pour-un-comblement-de-sinus.html"
+  },
+  {
+    "slug": "les-implants-questions-reponses",
+    "title": "Les implants : Questions / Réponses",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-implants-questions-reponses",
+    "local": "conseils/les-implants-questions-reponses.html"
+  },
+  {
+    "slug": "la-peri-implantite",
+    "title": "La péri-implantite",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/la-peri-implantite",
+    "local": "conseils/la-peri-implantite.html"
+  },
+  {
+    "slug": "les-differentes-pieces-dun-implant",
+    "title": "Les différentes pièces d’un implant",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-differentes-pieces-dun-implant",
+    "local": "conseils/les-differentes-pieces-dun-implant.html"
+  },
+  {
+    "slug": "la-mise-en-charge-immediate-dune-prothese-sur-un-implant",
+    "title": "La mise en charge immédiate d’une prothèse sur un implant",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/la-mise-en-charge-immediate-dune-prothese-sur-un-implant",
+    "local": "conseils/la-mise-en-charge-immediate-dune-prothese-sur-un-implant.html"
+  },
+  {
+    "slug": "les-gingivites",
+    "title": "Les gingivites",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-gingivites",
+    "local": "conseils/les-gingivites.html"
+  },
+  {
+    "slug": "les-parodontites-dechaussement-des-dents",
+    "title": "Les parodontites (déchaussement des dents)",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-parodontites-dechaussement-des-dents",
+    "local": "conseils/les-parodontites-dechaussement-des-dents.html"
+  },
+  {
+    "slug": "le-traitement-des-parodontites-dechaussement-des-dents",
+    "title": "Le traitement des parodontites (déchaussement des dents)",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/le-traitement-des-parodontites-dechaussement-des-dents",
+    "local": "conseils/le-traitement-des-parodontites-dechaussement-des-dents.html"
+  },
+  {
+    "slug": "le-surfacage",
+    "title": "Le surfaçage",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/le-surfacage",
+    "local": "conseils/le-surfacage.html"
+  },
+  {
+    "slug": "traitement-chirurgical-les-lambeaux-dassainissement",
+    "title": "Traitement chirurgical : les lambeaux d’assainissement",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/traitement-chirurgical-les-lambeaux-dassainissement",
+    "local": "conseils/traitement-chirurgical-les-lambeaux-dassainissement.html"
+  },
+  {
+    "slug": "les-parodontites-sont-elles-hereditaires",
+    "title": "Les parodontites sont-elles héréditaires ?",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-parodontites-sont-elles-hereditaires",
+    "local": "conseils/les-parodontites-sont-elles-hereditaires.html"
+  },
+  {
+    "slug": "soignez-vos-gencives-pour-vous-redonner-le-sourire",
+    "title": "Soignez vos gencives pour vous redonner le sourire",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/soignez-vos-gencives-pour-vous-redonner-le-sourire",
+    "local": "conseils/soignez-vos-gencives-pour-vous-redonner-le-sourire.html"
+  },
+  {
+    "slug": "les-maladies-parodontales-diagnostic-et-plan-de-traitement",
+    "title": "Les maladies parodontales : diagnostic et plan de traitement",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/les-maladies-parodontales-diagnostic-et-plan-de-traitement",
+    "local": "conseils/les-maladies-parodontales-diagnostic-et-plan-de-traitement.html"
+  },
+  {
+    "slug": "parodontite-et-sante-generale",
+    "title": "Parodontite et santé générale",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/parodontite-et-sante-generale",
+    "local": "conseils/parodontite-et-sante-generale.html"
+  },
+  {
+    "slug": "retraction-des-gencives-suite-a-une-maladie-parodontale",
+    "title": "Rétraction des gencives suite à une maladie parodontale",
+    "url": "https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/blog-posts/retraction-des-gencives-suite-a-une-maladie-parodontale",
+    "local": "conseils/retraction-des-gencives-suite-a-une-maladie-parodontale.html"
+  }
+]

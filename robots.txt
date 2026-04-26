@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/sitemap.xml

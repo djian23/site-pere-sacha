@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Centre dentaire Val d'Europe - Urgences -  Implantologie</title>
+<!-- Bootstrap core CSS -->
+<link media="all" type="text/css" rel="stylesheet" href="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/assets/bootstrap/css/bootstrap.min.css">
+<link media="all" type="text/css" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link media="all" type="text/css" rel="stylesheet" href="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/assets/alertifyjs/css/alertify.min.css">
+<link media="all" type="text/css" rel="stylesheet" href="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/assets/jdSlider/css/common.min.css">
+<style>
+html {scroll-behavior: smooth;}
+.navbar-brand img {width: 150px;}
+nav li.nav-item.rdv a {
+  background: #1493ff;
+  display: inline-block;
+  color: #FFF !important;
+  margin-left: 3px;
+}
+.intro h1 {margin-top: 0px;}
+.intro h2 {
+  font-size: 20px;
+  margin:20px 15%;
+  background: rgba(255,255,255,0.5);
+  padding: 10px;
+}
+.intro p.urgence {display: none;}
+.intro p.urgence>b {
+  background-color: #cd2121;
+    color: #FFF;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+.intro p.buttons {margin-top: 30px;}
+.intro a {
+  font-size: 14px;
+  padding: 18px 26px;
+  font-weight: 700;
+  margin: 0 10px !important;
+  line-height: 1 !important;
+}
+.intro a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+.intro a.more {
+  background-color: #1493ff;
+  border-color: rgb(37, 78, 154);
+  color: rgb(255, 255, 255);
+}
+.intro a.contact {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  color: rgb(68, 68, 68);
+}
+.intro {
+  background: url(img/home.jpg) no-repeat;
+  background-size: cover;
+  height: 750px;
+  width: 100%;
+}
+.cabinet {
+  background: url(img/int02.jpg) no-repeat;
+  background-size: cover;
+  height: 350px;
+  width: 100%;
+}
+.section0 {margin-top: 66px;margin-bottom: 30px;}
+.section1 {margin-top: 150px;margin-bottom: 30px;}
+.section1 .card-body {padding-left: 2.5rem}
+.section2 {margin-top: 30px;margin-bottom: 30px;}
+.section3 {margin-top: 30px;margin-bottom: 30px;}
+.section5 {margin-top: 30px;margin-bottom: 30px;}
+.section4 li {list-style: disc;}
+.section4 .card-header {padding: 0;background: #244E9A}
+.section4 .card-header button {width: 100%; text-align: left;color: #FFF;}
+.section4 #conseils {margin-top: 10px;}
+.section1 .icon i {
+  color: #ffffff;
+  border-radius: 50%;
+  background-color: #254e9a;
+  background: linear-gradient(135deg, #254e9a, );
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  position: absolute;
+  left: -10px;
+  top: -10px;
+}
+.section5 .icon {position: absolute;}
+.section5 .content {padding-left: 40px;}
+.section5 .icon i {
+  color: #ffffff;
+  border-radius: 50%;
+  background-color: #254e9a;
+  background: linear-gradient(135deg, #254e9a, );
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+.section6 .map {padding: 0;}
+.section6 iframe {
+  width: 100%;
+  height: 600px;
+  border: none;
+}
+.section7 {
+  background-color: #343a40!important;
+  height: 50px;
+  margin-top: -6px;
+}
+.section7 ul.navbar-nav {display: inline-block !important;}
+.section7 ul.navbar-nav li {float: left;margin:0 20px;}
+.section7 ul.navbar-nav li a {color:#AAA;}
+
+.section3 .buttons {text-align: right;margin-right: 30px;}
+
+div.dentistes {height: 0;}
+div.dentistes li {padding: 30px;font-size: 14px;}
+div.dentistes li img {width: 400px;}
+div.dentistes li a.btn {font-size:14px;width: 100%;}
+
+div.assistantes {display: none;height: 0;}
+div.assistantes li {padding: 30px;font-size: 14px;}
+div.assistantes li img {width: 400px;}
+
+
+.intro video {transform: translate(50%);}
+.intro p.pt1 {background: rgba(255,255,255,.8);display: inline-block;padding: 10px;text-align: left;}
+
+@media  screen and (max-width: 640px) {
+
+
+  .intro video {transform: initial;margin: 10px 0;width: 100%;}
+  .intro p.pt1 {width: 100%;}
+  .section1 {margin-top: 430px;}
+
+  nav li.nav-item.rdv a {
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+  }
+  .section0 .intro h1 {
+    font-size: 26px;
+    margin-top: 80px;
+  }
+  .section0 .intro h2 {
+    font-size: 16px;
+    margin: 20px 5%;
+  }
+  .section0 .intro p.urgence {
+    margin-top: 50px;
+  }
+  .section0 .intro p.urgence>b {
+    font-size: 14px;
+  }
+  .section0 .intro a.contact {
+    display: inline-block;
+    margin-top: 30px !important;
+  }
+  .section1 div[class^='col'] {margin: 20px 0;}
+  #contact .content {margin-bottom: 20px;}
+  .section3 .buttons {text-align: center;margin-top:10px;}
+  #map {height: 70vh;}
+  .section7 {display: none;}
+}
+
+
+
+</style>
+</head>
+<body id="top">
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr"><img src="img/logo-blc.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+	<li class="nav-item active"><a class="nav-link" href="#top">Accueil</a></li>
+	<li class="nav-item"><a class="nav-link" href="#cabinet">Le cabinet</a></li>
+	<li class="nav-item"><a class="nav-link" href="#equipe">L'�quipe</a></li>
+	<li class="nav-item"><a class="nav-link external" target="_blank" href="https://selarl-n-s-et-associes.chirurgiens-dentistes.fr/">L'orthodontie</a></li>
+	<!-- <li class="nav-item"><a class="nav-link" href="#conseils">Fiches Conseils</a></li> -->
+	<li class="nav-item"><a class="nav-link" href="#contact">Nous contacter</a></li>
+	<li class="nav-item rdv"><a class="nav-link external" target="_blank" href="https://www.doctolib.fr/cabinet-dentaire/serris/centre-dentaire-durgence-val-deurope">RDV Doctolib</a></li>
+</ul>    </div>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="container-fluid section0">
+  <div class="row">
+    <div class="col-12 text-center intro">
+      <h1>Bienvenue au Centre Dentaire du Val d'Europe</h1>
+      <!-- <h2>Notre cabinet se consacre � vous fournir un service amical et professionnel tout en r�pondant � tous vos besoins de sant� dentaire</h2> -->
+
+      <p class="pt1">
+        Chers patients,
+        <br>Nous sommes heureux et impatients de vous retrouver.
+        <br>Nous esp�rons vous trouver en bonne sant� mais aussi responsables et coop�ratifs.
+        <br>Nous avons tout mis en Suvre pour vous recevoir dans les meilleures conditions de s�curit� pour vous et notre �quipe.
+        <br>Des mesures suppl’mentaires de d�sinfection et de st�rilisation ont �t� prises.
+        <br>Nous vous remercions de prendre connaissance de nos recommandations,
+        <br>Voici une vid�o explicative :
+        <br><video controls src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/documents/recommandations.mp4"></video>
+        <br>> <a href="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/documents/recommandations.pdf" target="_blank">T�l’charger le document en pdf</a>
+      </p>
+
+      <h2 style="text-align: left">AVANT VOTRE RENDEZ VOUS</h2>
+      <p style="background: rgba(255,255,255,.8);display: inline-block;padding: 10px;text-align: left;">
+        Nous sommes pr�ts � vous accueillir de nouveau dans notre cabinet, cependant certaines r�gles ont chang�, pour votre s�curit�.
+        <br>> <a href="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/documents/avant-de-revenir-chez-mon-dentiste.pdf" target="_blank">T�l’charger le document en pdf</a>
+      </p>
+
+
+      <p class="urgence"><b>Urgences assur�es tous les jours sans rdv</b></p>
+      <p class="buttons">
+        <a class="contact" href="#contact">NOUS CONTACTER</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container section1">
+  <div class="row">
+    <div class="col-lg-4 col-sm-12">
+      <div class="card h-100">
+        <div class="card-body">
+          <div class="icon">
+            <i class="fa fa-location-arrow"></i>
+          </div>
+          Centre Dentaire du Val dEurope
+          <br>14 & 26 cours du Danube
+          <br>77700 SERRIS MARNE LA VALLEE
+          <br>T�l. : 01 64 17 12 11
+          <br>Fax : 01 64 17 13 23
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-12">
+      <div class="card h-100">
+        <div class="card-body">
+          <div class="icon">
+            <i class="fa fa-clock-o"></i>
+          </div>
+          Lun-Ven : 9h30 � 13h et 14h � 19h30
+          <br>Sam : 9h30 � 15h
+          <br>Ferm� le dimanche
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-12">
+      <div class="card h-100">
+        <div class="card-body">
+          <div class="icon">
+            <i class="fa fa-envelope-o"></i>
+          </div>
+          T�l. : 01 64 17 12 11
+          <br><a href="mailto:dentistevaldeurope@gmail.com">dentistevaldeurope@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="cabinet" class="container section2">
+  <div class="row">
+    <div class="col-lg-6 col-sm-12">
+      <div class="cabinet"></div>
+    </div>
+    <div class="col-lg-6 col-sm-12">
+      <h2>Le cabinet</h2>
+
+      <br>Les progr�s et nouvelles techniques approuv�es par la dentisterie moderne permettent � l�quipe du Centre dentaire du Val dEurope (77) � Serris de vous proposer des soins int�grants toutes les sp�cialit�s en dentisterie (la proth�se, limplantologie, la parodontie) pour une bonne hygi�ne dentaire au quotidien, avec le souci permanent de la meilleure esth�tique dentaire.
+    </div>
+  </div>
+</div>
+
+<div id="equipe" class="container section3">
+  <div class="row">
+    <div class="col-12">
+      <h2>L'�quipe</h2>
+
+      <div class="buttons">
+        <a href="#" class="btn btn-primary dentistes">Dentistes</a>&nbsp;
+        <a href="#" class="btn btn-primary assistantes">Assistantes</a>
+      </div>
+
+      <div class="jd-slider dentistes">
+        <div class="slide-inner">
+          <ul class="slide-area">
+                        <li>
+              <img src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/medias/docteurs/U5WPr7Iy_1636496093.jpg" alt="">
+              <br><b>Dr Alain ABITBOL</b>
+              <br>Docteur en Chirurgie Dentaire
+              <br>Num�ro dinscription � lordre : 774703854
+              <br><a href="https://www.doctolib.fr/dentiste/serris/alain-abitbol-serris" class="btn btn-info btn-sm" target="_blank">Prendre RDV</a>
+            </li>
+                        <li>
+              <img src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/medias/docteurs/Cr1pMobd_1637676583.jpg" alt="">
+              <br><b>Dr Ros CHEA</b>
+              <br>Docteur en Chirurgie Dentaire
+              <br>Num�ro dinscription � lordre : 774707103
+              <br><a href="https://doctolib.fr/dentiste/serris/ros-chea" class="btn btn-info btn-sm" target="_blank">Prendre RDV</a>
+            </li>
+                        <li>
+              <img src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/medias/docteurs/DrGaelleBENISTY.jpg" alt="">
+              <br><b>Dr Ga�lle BENISTY</b>
+              <br>Docteur en Chirurgie Dentaire
+              <br>Num�ro dinscription � lordre : 774706204
+              <br><a href="https://doctolib.fr/dentiste/serris/gaelle-benisty" class="btn btn-info btn-sm" target="_blank">Prendre RDV</a>
+            </li>
+                        <li>
+              <img src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/medias/docteurs/scLfoeMe_1637499358.jpg" alt="">
+              <br><b>Dr Yael ATTAL</b>
+              <br>Docteur en Chirurgie Dentaire
+              <br>Num�ro dinscription � lordre : 774706410
+              <br><a href="https://doctolib.fr/dentiste/serris/yael-attal" class="btn btn-info btn-sm" target="_blank">Prendre RDV</a>
+            </li>
+                        <li>
+              <img src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/medias/docteurs/xqB99mEp_1637498127.jpg" alt="">
+              <br><b>Dr Rapha�l  UZAN</b>
+              <br>Docteur en Chirurgie Dentaire
+              <br>Num�ro dinscription � lordre : 
+              <br><a href="https://doctolib.fr/dentiste/serris/raphael-uzan-serris" class="btn btn-info btn-sm" target="_blank">Prendre RDV</a>
+            </li>
+                        <li>
+              <img src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/medias/docteurs/5OMdAyhY_1637498339.jpg" alt="">
+              <br><b>Dr Eva NORINDR</b>
+              <br>Docteur en Chirurgie Dentaire
+              <br>Num�ro dinscription � lordre : 
+              <br><a href="https://doctolib.fr/dentiste/le-bourget/eva-norindr" class="btn btn-info btn-sm" target="_blank">Prendre RDV</a>
+            </li>
+                        <li>
+              <img src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/medias/docteurs/BROzjhzJ_1637500011.jpg" alt="">
+              <br><b>Dr Antoine HADDAD</b>
+              <br>Docteur en Chirurgie Dentaire
+              <br>Num�ro dinscription � lordre : 
+              <br><a href="https://www.doctolib.fr/dentiste/serris/antoine-haddad-0d675be9-0b72-42ea-9d60-46bb2ae4150a" class="btn btn-info btn-sm" target="_blank">Prendre RDV</a>
+            </li>
+                        <li>
+              <img src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/medias/docteurs/ZKxy2eoT_1637500328.jpg" alt="">
+              <br><b>Dr Alexandre CARON</b>
+              <br>Docteur en Chirurgie Dentaire
+              <br>Num�ro dinscription � lordre : 
+              <br><a href="https://www.doctolib.fr/dentiste/serris/alexandre-caron" class="btn btn-info btn-sm" target="_blank">Prendre RDV</a>
+            </li>
+                        <li>
+              <img src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/medias/docteurs/3BmfHfZp_1637500510.jpg" alt="">
+              <br><b>Dr Rayan YAMAMI</b>
+              <br>Docteur en Chirurgie Dentaire
+              <br>Num�ro dinscription � lordre : 
+              <br><a href="https://www.doctolib.fr/dentiste/serris/rayan-yamami" class="btn btn-info btn-sm" target="_blank">Prendre RDV</a>
+            </li>
+                        <li>
+              <img src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/medias/docteurs/zQ5tyauq_1637676314.jpg" alt="">
+              <br><b>Dr Elsa RAK</b>
+              <br>Docteur en Chirurgie Dentaire
+              <br>Num�ro dinscription � lordre : 
+              <br><a href="https://www.doctolib.fr/dentiste/serris/elsa-rak" class="btn btn-info btn-sm" target="_blank">Prendre RDV</a>
+            </li>
+                        <li>
+              <img src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/medias/docteurs/U1LQ0DMb_1637676406.jpg" alt="">
+              <br><b>Dr Salom� BITTON</b>
+              <br>Docteur en Chirurgie Dentaire
+              <br>Num�ro dinscription � lordre : 
+              <br><a href="https://www.doctolib.fr/dentiste/le-bourget/salome-bitton?pid=practice-62667" class="btn btn-info btn-sm" target="_blank">Prendre RDV</a>
+            </li>
+                        <li>
+              <img src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/medias/docteurs/UWKLzBXs_1637526659.jpg" alt="">
+              <br><b>Dr Ruben CHETRIT</b>
+              <br>Docteur en Chirurgie Dentaire
+              <br>Num�ro dinscription � lordre : 
+              <br><a href="https://www.doctolib.fr/dentiste/serris/ruben-chetrit" class="btn btn-info btn-sm" target="_blank">Prendre RDV</a>
+            </li>
+                        <li>
+              <img src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/medias/docteurs/C6Yov4uw_1637924670.jpg" alt="">
+              <br><b>Dr Samuel SAYAG</b>
+              <br>Docteur en Chirurgie Dentaire
+              <br>Num�ro dinscription � lordre : 
+              <br><a href="https://www.doctolib.fr/dentiste/serris/samuel-sayag" class="btn btn-info btn-sm" target="_blank">Prendre RDV</a>
+            </li>
+                      </ul>
+        </div>
+        <a class="prev" href="#">
+          <i class="fa fa-angle-left fa-2x"></i>
+        </a>
+        <a class="next" href="#">
+          <i class="fa fa-angle-right fa-2x"></i>
+        </a>
+        <div class="controller">
+          <div class="indicate-area"></div>
+        </div>
+      </div>
+
+      <div class="jd-slider assistantes">
+        <div class="slide-inner">
+          <ul class="slide-area">
+                        <li>
+              <img src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/medias/assistantes/wD813eak_1548869455.jpg" alt="">
+              <br><b>Ang�litia</b>
+              <br>Assistance dentaire-Responsable de site
+              <br>Responsable de site
+            </li>
+                        <li>
+              <img src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/medias/assistantes/sO9rqbBJ_1548869494.jpg" alt="">
+              <br><b>C�line</b>
+              <br>Assistante dentaire dipl’m�e
+              <br>
+            </li>
+                        <li>
+              <img src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/medias/assistantes/SIQdYkW9_1548869526.jpg" alt="">
+              <br><b>Channarie</b>
+              <br>Assistante dentaire dipl’m�e
+              <br>
+            </li>
+                        <li>
+              <img src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/medias/assistantes/8eRzfxb6_1548869646.jpg" alt="">
+              <br><b>Elodie</b>
+              <br>Assistante dentaire dipl’m�e
+              <br>Responsable Implantologie / Chirurgie
+            </li>
+                        <li>
+              <img src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/medias/assistantes/AjIRG8sd_1548869697.jpg" alt="">
+              <br><b>Isabelle</b>
+              <br>Assistante Administrative
+              <br>
+            </li>
+                        <li>
+              <img src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/medias/assistantes/DvPqQ53H_1637497490.jpg" alt="">
+              <br><b>Lolita</b>
+              <br>Assistante dentaire dipl’m�e
+              <br>Responsable de site
+            </li>
+                        <li>
+              <img src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/medias/assistantes/ewRbIY97_1548869858.jpg" alt="">
+              <br><b>Lucette</b>
+              <br>Assistante dentaire dipl’m�e
+              <br>Responsable G�n�rale / DRH
+            </li>
+                        <li>
+              <img src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/medias/assistantes/XCDBS4zB_1548869911.jpg" alt="">
+              <br><b>M�lissa</b>
+              <br>Assistante dentaire
+              <br>Responsable
+            </li>
+                        <li>
+              <img src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/medias/assistantes/REJtD5Lp_1548869932.jpg" alt="">
+              <br><b>Oc�ane</b>
+              <br>Assistante dentaire
+              <br>
+            </li>
+                        <li>
+              <img src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/medias/assistantes/kHmpDzXq_1548869956.jpg" alt="">
+              <br><b>St�phanie</b>
+              <br>Assistante dentaire
+              <br>
+            </li>
+                        <li>
+              <img src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/medias/assistantes" alt="">
+              <br><b>Jordane</b>
+              <br>Aide Dentaire
+              <br>
+            </li>
+                      </ul>
+        </div>
+        <a class="prev" href="#">
+          <i class="fa fa-angle-left fa-2x"></i>
+        </a>
+        <a class="next" href="#">
+          <i class="fa fa-angle-right fa-2x"></i>
+        </a>
+        <div class="controller">
+          <div class="indicate-area"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="container section4">
+  <div class="row">
+    <div class="col-12">
+      <h2>Nos conseils pratiques</h2>
+
+
+
+      <div class="accordion no-gutters" id="conseils">
+
+        <div class="card col-lg-6 col-sm-12">
+          <div class="card-header" id="heading1">
+            <h3 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                Informations pratiques
+              </button>
+            </h3>
+          </div>
+
+          <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#conseils">
+            <div class="card-body">
+              <li><a href="/blog-posts/soins-dentaires-specifiques-qui-consulter">Soins dentaires sp�cifiques : qui consulter ?</a></li>
+              <li><a href="/blog-posts/voyages-et-vacances-conseils-pratiques">Voyages et vacances : conseils pratiques</a></li>
+              <li><a href="/blog-posts/si-vous-passez-vos-vacances-a-letranger">Si vous passez vos vacances � l�tranger...</a></li>
+              <li><a href="/blog-posts/honoraires-et-remboursements">Honoraires et remboursements</a></li>
+              <li><a href="/blog-posts/hygiene-et-asepsie-au-cabinet">Hygi�ne et asepsie au cabinet</a></li>
+              <li><a href="/blog-posts/la-relation-patientpraticien-au-cabinet-dentaire">La relation patient/praticien au Cabinet dentaire</a></li>
+            </div>
+          </div>
+        </div>
+        <div class="card col-lg-6 col-sm-12">
+          <div class="card-header" id="heading2">
+            <h3 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                L'�quipement du cabinet dentaire
+              </button>
+            </h3>
+          </div>
+          <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#conseils">
+            <div class="card-body">
+              <li><a href="/blog-posts/innovations-technologiques">Innovations technologiques</a></li>
+              <li><a href="/blog-posts/lexamen-radiologique-panoramique">L'examen radiologique panoramique</a></li>
+            </div>
+          </div>
+        </div>
+        <div class="card col-lg-6 col-sm-12">
+          <div class="card-header" id="heading3">
+            <h3 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                L'orthodontie
+              </button>
+            </h3>
+          </div>
+          <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#conseils">
+            <div class="card-body">
+              <li><a href="/blog-posts/quest-ce-que-lorthodontie">Qu'est-ce que l'orthodontie ?</a></li>
+              <li><a href="/blog-posts/orthodontie-et-orthodontistes">Orthodontie et orthodontistes</a></li>
+              <li><a href="/blog-posts/interets-dun-traitement-orthodontique">Int�r�ts d'un traitement orthodontique</a></li>
+              <li><a href="/blog-posts/a-quel-age-consulter-un-orthodontiste">A quel �ge consulter un orthodontiste ?</a></li>
+              <li><a href="/blog-posts/les-differentes-techniques-de-traitement">Les diff�rentes techniques de traitement</a></li>
+              <li><a href="/blog-posts/le-dossier-orthodontique">Le dossier orthodontique</a></li>
+              <li><a href="/blog-posts/lorthodontie-invisible">L'orthodontie invisible</a></li>
+              <li><a href="/blog-posts/incidents-et-urgences-orthodontiques">Incidents et urgences orthodontiques</a></li>
+              <li><a href="/blog-posts/impact-de-la-succion-du-pouce-sur-lensemble-bucco-dentaire">Impact de la succion du pouce sur lensemble bucco-dentaire</a></li>
+            </div>
+          </div>
+        </div>
+        <div class="card col-lg-6 col-sm-12">
+          <div class="card-header" id="heading4">
+            <h3 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                Les choix esth�tiques
+              </button>
+            </h3>
+          </div>
+          <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#conseils">
+            <div class="card-body">
+                <li><a href="/blog-posts/lesthetique-du-sourire">L'esth�tique du sourire</a></li>
+                <li><a href="/blog-posts/le-blanchiment-des-dents">Le blanchiment des dents</a></li>
+                <li><a href="/blog-posts/les-facettes-ceramiques">Les facettes c�ramiques</a></li>
+                <li><a href="/blog-posts/greffe-gingivale-a-visee-esthetique">Greffe gingivale � vis�e esth�tiquel</a></li>
+                <li><a href="/blog-posts/lorthodontie">L'orthodontie</a></li>
+                <li><a href="/blog-posts/les-colorations-dentaires">Les colorations dentaires</a></li>
+                <li><a href="/blog-posts/la-ligne-du-sourire">La ligne du sourire</a></li>
+                <li><a href="/blog-posts/la-dentisterie-adhesive">La dentisterie adh�sive</a></li>
+            </div>
+          </div>
+        </div>
+        <div class="card col-lg-6 col-sm-12">
+          <div class="card-header" id="heading5">
+            <h3 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                Les dents chez ladulte
+              </button>
+            </h3>
+          </div>
+          <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#conseils">
+            <div class="card-body">
+                <li><a href="/blog-posts/la-dent-composition-forme-et-fonction">La dent : composition, forme et fonction</a></li>
+                <li><a href="/blog-posts/conserver-une-haleine-fraiche">Conserver une haleine fra�che</a></li>
+                <li><a href="/blog-posts/les-dents-de-sagesse">Les dents de sagesse</a></li>
+                <li><a href="/blog-posts/dents-de-ladulte-dents-de-lenfant">Dents de l'adulte, dents de l'enfant</a></li>
+                <li><a href="/blog-posts/la-plaque-dentaire">La plaque dentaire</a></li>
+                <li><a href="/blog-posts/le-detartrage">Le d�tartrage</a></li>
+                <li><a href="/blog-posts/hypersensibilite-des-dents">Hypersensibilit� des dents</a></li>
+                <li><a href="/blog-posts/les-soins-conservateurs-dentaires">Les soins conservateurs dentaires</a></li>
+                <li><a href="/blog-posts/les-malpositions-dentaires">Les malpositions dentaires</a></li>
+                <li><a href="/blog-posts/les-dents-des-seniors">Les dents des seniors</a></li>
+            </div>
+          </div>
+        </div>
+        <div class="card col-lg-6 col-sm-12">
+          <div class="card-header" id="heading6">
+            <h3 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                Les dents de lenfance � ladolescence
+              </button>
+            </h3>
+          </div>
+          <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#conseils">
+            <div class="card-body">
+                <li><a href="/blog-posts/grossesse-et-soins-des-dents">Grossesse et soins des dents</a></li>
+                <li><a href="/blog-posts/les-percees-dentaires">Les perc�es dentaires</a></li>
+                <li><a href="/blog-posts/leruption-des-dents-de-lait-et-des-dents-definitives">L�ruption des dents de lait et des dents d�finitives</a></li>
+                <li><a href="/blog-posts/premiere-visite-chez-le-dentiste">Premi�re visite chez le dentiste</a></li>
+                <li><a href="/blog-posts/pourquoi-soigner-les-dents-de-lait-des-enfants">Pourquoi soigner les dents de lait des enfants ?</a></li>
+                <li><a href="/blog-posts/les-caries-du-jeune-enfant">Les caries du jeune enfant</a></li>
+                <li><a href="/blog-posts/eviter-les-caries-grace-au-scellement-des-sillons">Eviter les caries gr�ce au scellement des sillons</a></li>
+                <li><a href="/blog-posts/alimentation-et-caries-chez-lenfant">Alimentation et caries chez l'enfant</a></li>
+                <li><a href="/blog-posts/pourquoi-les-sucres-caches-sont-ils-mauvais-pour-les-dents">Pourquoi les sucres cach�s sont-ils mauvais pour les dents ?</a></li>
+                <li><a href="/blog-posts/la-succion-du-pouce-de-la-tetine-ou-de-la-langue-faut-il-intervenir">La succion du pouce, de la t�tine ou de la langue : faut-il intervenir ?</a></li>
+                <li><a href="/blog-posts/le-calendrier-des-soins-de-la-future-maman">Le calendrier des soins de la future maman</a></li>
+                <li><a href="/blog-posts/les-dangers-du-piercing-buccal">Les dangers du piercing buccal</a></li>
+                <li><a href="/blog-posts/les-bijoux-dentaires">Les bijoux dentaires</a></li>
+                <li><a href="/blog-posts/hypomineralisation-des-molaires-et-incisives-mih-presentation">Hypomin�ralisation des molaires et incisives (MIH) : pr�sentation</a></li>
+                <li><a href="/blog-posts/hypomineralisation-des-molaires-et-incisives-mih-quels-soins">Hypomin�ralisation des molaires et incisives (MIH) : quels soins ?</a></li>
+                <li><a href="/blog-posts/dent-cassee-dent-accidentee">Dent cass�e, dent accident�e</a></li>
+            </div>
+          </div>
+        </div>
+        <div class="card col-lg-6 col-sm-12">
+          <div class="card-header" id="heading7">
+            <h3 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                Les dents et la sant�
+              </button>
+            </h3>
+          </div>
+          <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#conseils">
+            <div class="card-body">
+                <li><a href="/blog-posts/aliments-allies-et-ennemis">Aliments : alli�s et ennemis</a></li>
+                <li><a href="/blog-posts/bien-etre-les-vitamines-pour-votre-sante-bucco-dentaire">Bien-�tre : les vitamines pour votre sant� bucco-dentaire</a></li>
+                <li><a href="/blog-posts/les-concentrations-en-fluor-des-eaux-minerales">Les concentrations en fluor des eaux min�rales</a></li>
+                <li><a href="/blog-posts/locclusion-dentaire">Locclusion dentaire</a></li>
+                <li><a href="/blog-posts/la-salive-un-protecteur-naturel-de-notre-bouche">La salive : un protecteur naturel de notre bouche</a></li>
+                <li><a href="/blog-posts/les-infections-a-distance">Les infections � distance</a></li>
+                <li><a href="/blog-posts/prevention-des-endocardites-infectieuses-dorigine-bucco-dentaire">Pr�vention des endocardites infectieuses dorigine bucco-dentaire</a></li>
+                <li><a href="/blog-posts/la-bouche-miroir-de-notre-etat-de-sante-limpact-du-diabete">La bouche, miroir de notre �tat de sant� : l'impact du diab�te</a></li>
+                <li><a href="/blog-posts/la-sante-bucco-dentaire">La sant� bucco-dentaire</a></li>
+                <li><a href="/blog-posts/le-tabac-et-votre-sante-bucco-dentaire">Le tabac et votre sant� bucco-dentaire</a></li>
+                <li><a href="/blog-posts/ronflement-et-apnee-du-sommeil">Ronflement et apn�e du sommeil</a></li>
+                <li><a href="/blog-posts/apnee-du-sommeil-le-traitement-par-orthese-dentaire">Apn�e du sommeil : le traitement par orth�se dentaire</a></li>
+                <li><a href="/blog-posts/le-syndrome-dapnees-obstructives-du-sommeil">Le Syndrome dApn�es Obstructives du Sommeil</a></li>
+                <li><a href="/blog-posts/salive-chewing-gum-et-sante-bucco-dentaire">Salive, chewing-gum et sant� bucco-dentaire</a></li>
+                <li><a href="/blog-posts/la-genetique-dentaire">La g�n�tique dentaire</a></li>
+                <li><a href="/blog-posts/lagenesie-dentaire">LAg�n�sie dentaire</a></li>
+            </div>
+          </div>
+        </div>
+        <div class="card col-lg-6 col-sm-12">
+          <div class="card-header" id="heading8">
+            <h3 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                Quizz et jeux
+              </button>
+            </h3>
+          </div>
+          <div id="collapse8" class="collapse" aria-labelledby="heading8" data-parent="#conseils">
+            <div class="card-body">
+                <li><a href="/blog-posts/vrai-ou-faux">Vrai ou faux ?</a></li>
+                <li><a href="/blog-posts/les-jeux-de-tom-et-lila">Les jeux de Tom et Lila</a></li>
+            </div>
+          </div>
+        </div>
+        <div class="card col-lg-6 col-sm-12">
+          <div class="card-header" id="heading9">
+            <h3 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                Prendre soin de ses dents
+              </button>
+            </h3>
+          </div>
+          <div id="collapse9" class="collapse" aria-labelledby="heading9" data-parent="#conseils">
+            <div class="card-body">
+              <li><a href="/blog-posts/les-10-regles-dor-dune-bonne-hygiene-dentaire">Les 10 r�gles d'or d'une bonne hygi�ne dentaire</a></li>
+              <li><a href="/blog-posts/a-quel-age-et-comment-les-enfants-doivent-ils-se-brosser-les-dents">A quel �ge et comment les enfants doivent-ils se brosser les dents ?</a></li>
+              <li><a href="/blog-posts/lhygiene-alimentaire-pour-la-sante-des-dents">L'hygi�ne alimentaire pour la sant� des dents</a></li>
+              <li><a href="/blog-posts/hygiene-bucco-dentaire-les-bons-reflexes">Hygi�ne bucco-dentaire : les bons r�flexes</a></li>
+              <li><a href="/blog-posts/brosse-a-dents-manuelle-ou-brosse-a-dents-electrique">Brosse � dents manuelle ou brosse � dents �lectrique ?</a></li>
+              <li><a href="/blog-posts/choisir-son-dentifrice">Choisir son dentifrice</a></li>
+              <li><a href="/blog-posts/le-fluor-quelles-recommandations">Le fluor, quelles recommandations ?</a></li>
+              <li><a href="/blog-posts/technique-de-brossage-des-dents">Technique de brossage des dents</a></li>
+              <li><a href="/blog-posts/brossettes-et-fil-dentaire-des-instruments-a-mettre-entre-toutes-les-dents">Brossettes et fil dentaire : des instruments � mettre entre toutes les dents&</a></li>
+              <li><a href="/blog-posts/le-bon-usage-des-bains-de-bouche">Le bon usage des bains de bouche</a></li>
+              <li><a href="/blog-posts/la-brosse-a-dents-electrique-un-nettoyage-des-dents-optimal">La brosse � dents �lectrique : un nettoyage des dents optimal</a></li>
+            </div>
+          </div>
+        </div>
+        <div class="card col-lg-6 col-sm-12">
+          <div class="card-header" id="heading10">
+            <h3 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                Les proth�ses
+              </button>
+            </h3>
+          </div>
+          <div id="collapse10" class="collapse" aria-labelledby="heading10" data-parent="#conseils">
+            <div class="card-body">
+              <li><a href="/blog-posts/les-differents-types-de-protheses-dentaires">Les diff�rents types de proth�ses dentaires</a></li>
+              <li><a href="/blog-posts/les-inlays-et-les-onlays">Les inlays et les onlays</a></li>
+              <li><a href="/blog-posts/protheses-amovibles-partielles">Proth�ses amovibles partielles</a></li>
+              <li><a href="/blog-posts/les-bridges-et-ponts-dentaires">Les bridges et ponts dentaires</a></li>
+              <li><a href="/blog-posts/les-couronnes-dentaires">Les couronnes dentaires</a></li>
+              <li><a href="/blog-posts/les-protheses-amovibles-completes">Les proth�ses amovibles compl’tes</a></li>
+              <li><a href="/blog-posts/bien-vivre-avec-une-prothese-amovible">Bien vivre avec une proth�se amovible</a></li>
+              <li><a href="/blog-posts/les-inlay-cores">Les inlay-cores</a></li>
+              <li><a href="/blog-posts/les-nouveaux-materiaux-utilises-pour-reconstruire-une-dent-abimee">Les nouveaux mat�riaux utilis�s pour reconstruire une dent ab�m�e</a></li>
+              <li><a href="/blog-posts/stabilisation-des-protheses-amovibles-completes">Stabilisation des proth�ses amovibles compl’tes</a></li>
+              <li><a href="/blog-posts/la-couronne-tout-ceramique">La couronne tout c�ramique</a></li>
+            </div>
+          </div>
+        </div>
+        <div class="card col-lg-6 col-sm-12">
+          <div class="card-header" id="heading11">
+            <h3 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                Les pathologies bucco-dentaires et leurs soins
+              </button>
+            </h3>
+          </div>
+          <div id="collapse11" class="collapse" aria-labelledby="heading11" data-parent="#conseils">
+            <div class="card-body">
+              <li><a href="/blog-posts/caries-et-soins-des-caries">Caries et soins des caries</a></li>
+              <li><a href="/blog-posts/la-devitalisation">La d�vitalisation</a></li>
+              <li><a href="/blog-posts/les-aphtes">Les aphtes</a></li>
+              <li><a href="/blog-posts/les-abces">Les abc�s</a></li>
+              <li><a href="/blog-posts/les-mycoses-buccales">Les mycoses buccales</a></li>
+              <li><a href="/blog-posts/les-grincements-de-dents-le-bruxisme">Les grincements de dents : le bruxisme</a></li>
+              <li><a href="/blog-posts/bouche-seche-comment-regler-les-problemes-de-debit-salivaire">Bouche s�che : comment r�gler les probl’mes de d�bit salivaire ?</a></li>
+              <li><a href="/blog-posts/les-extractions-dentaires">Les extractions dentaires</a></li>
+              <li><a href="/blog-posts/comment-garder-le-sourire-apres-une-extraction-dentaire">Comment garder le sourire apr�s une extraction dentaire</a></li>
+              <li><a href="/blog-posts/je-nai-jamais-mal-aux-dents-faut-il-aller-chez-le-dentiste">Je n'ai jamais mal aux dents, faut-il aller chez le dentiste ?</a></li>
+              <li><a href="/blog-posts/les-traumatismes-dentaires">Les traumatismes dentaires</a></li>
+              <li><a href="/blog-posts/conseils-avant-une-intervention-chirurgicale-dentaire">Conseils avant une intervention chirurgicale dentaire</a></li>
+              <li><a href="/blog-posts/conseils-apres-une-intervention-chirurgicale-dentaire">Conseils apr�s une intervention chirurgicale dentaire</a></li>
+              <li><a href="/blog-posts/lusure-dentaire">L'usure dentaire</a></li>
+              <li><a href="/blog-posts/les-gouttieres-occlusales">Les goutti�res occlusales</a></li>
+              <li><a href="/blog-posts/dam-et-articulations-temporo-mandibulaires-atm">DAM et articulations temporo-mandibulaires (ATM)</a></li>
+              <li><a href="/blog-posts/pourquoi-faut-il-remplacer-une-dent-manquante">Pourquoi faut-il remplacer une dent manquante</a></li>
+              <li><a href="/blog-posts/la-mylolyse-dentaire-ou-lesion-cervicale-dusure">La mylolyse dentaire ou l’sion cervicale d'usure</a></li>
+              <li><a href="/blog-posts/les-kystes-dentaires">Les kystes dentaires</a></li>
+              <li><a href="/blog-posts/endodontie">Endodontie</a></li>
+              <li><a href="/blog-posts/le-retraitement-endodontique">Le retraitement endodontique</a></li>
+            </div>
+          </div>
+        </div>
+        <div class="card col-lg-6 col-sm-12">
+          <div class="card-header" id="heading12">
+            <h3 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                Les implants
+              </button>
+            </h3>
+          </div>
+          <div id="collapse12" class="collapse" aria-labelledby="heading12" data-parent="#conseils">
+            <div class="card-body">
+              <li><a href="/blog-posts/quest-ce-quun-implant-dentaire-indications-et-contre-indications">Qu'est-ce qu'un implant dentaire ? Indications et contre-indications</a></li>
+              <li><a href="/blog-posts/pose-dimplants-dentaires">Pose d'implants dentaires</a></li>
+              <li><a href="/blog-posts/prothese-dentaire-sur-implant">Proth�se dentaire sur implant</a></li>
+              <li><a href="/blog-posts/limplantologie-ou-en-sommes-nous">L'implantologie : o� en sommes-nous ?</a></li>
+              <li><a href="/blog-posts/lanalyse-pre-implantaire">L'analyse pr�-implantaire</a></li>
+              <li><a href="/blog-posts/les-greffes-osseuses-pre-implantaires">Les greffes osseuses pr�-implantaires</a></li>
+              <li><a href="/blog-posts/limplantologie-assistee-par-ordinateur">L'implantologie assist�e par ordinateur</a></li>
+              <li><a href="/blog-posts/la-greffe-osseuse-dapposition-ou-greffe-en-onlay">La greffe osseuse d'apposition ou greffe en onlay</a></li>
+              <li><a href="/blog-posts/la-greffe-osseuse-intra-sinusienne-ou-sinus-lift">La greffe osseuse intra sinusienne ou sinus lift</a></li>
+              <li><a href="/blog-posts/douleur-et-implants-dentaires">Douleur et implants dentaires</a></li>
+              <li><a href="/blog-posts/la-maintenance-implantaire">La maintenance implantaire</a></li>
+              <li><a href="/blog-posts/votre-passeport-implantaire">Votre passeport implantaire</a></li>
+              <li><a href="/blog-posts/precautions-a-prendre-pour-un-comblement-de-sinus">Pr�cautions � prendre pour un comblement de sinus</a></li>
+              <li><a href="/blog-posts/les-implants-questions-reponses">Les implants : Questions / R�ponses</a></li>
+              <li><a href="/blog-posts/la-peri-implantite">La p�ri-implantite</a></li>
+              <li><a href="/blog-posts/les-differentes-pieces-dun-implant">Les diff�rentes pi�ces dun implant</a></li>
+              <li><a href="/blog-posts/la-mise-en-charge-immediate-dune-prothese-sur-un-implant">La mise en charge imm�diate dune proth�se sur un implant</a></li>
+            </div>
+          </div>
+        </div>
+        <div class="card col-lg-6 col-sm-12">
+          <div class="card-header" id="heading13">
+            <h3 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                Les gencives
+              </button>
+            </h3>
+          </div>
+          <div id="collapse13" class="collapse" aria-labelledby="heading13" data-parent="#conseils">
+            <div class="card-body">
+              <li><a href="/blog-posts/les-gingivites">Les gingivites</a></li>
+              <li><a href="/blog-posts/les-parodontites-dechaussement-des-dents">Les parodontites (d�chaussement des dents)</a></li>
+              <li><a href="/blog-posts/le-traitement-des-parodontites-dechaussement-des-dents">Le traitement des parodontites (d�chaussement des dents)</a></li>
+              <li><a href="/blog-posts/le-surfacage">Le surfa�age</a></li>
+              <li><a href="/blog-posts/traitement-chirurgical-les-lambeaux-dassainissement">Traitement chirurgical : les lambeaux dassainissement</a></li>
+              <li><a href="/blog-posts/les-parodontites-sont-elles-hereditaires">Les parodontites sont-elles h�r�ditaires</a></li>
+              <li><a href="/blog-posts/soignez-vos-gencives-pour-vous-redonner-le-sourire">Soignez vos gencives pour vous redonner le sourire</a></li>
+              <li><a href="/blog-posts/les-maladies-parodontales-diagnostic-et-plan-de-traitement">Les maladies parodontales : diagnostic et plan de traitement</a></li>
+              <li><a href="/blog-posts/parodontite-et-sante-generale">Parodontite et sant� g�n�rale</a></li>
+              <li><a href="/blog-posts/retraction-des-gencives-suite-a-une-maladie-parodontale">R�traction des gencives suite � une maladie parodontale</a></li>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container section5" id="contact">
+  <div class="row">
+    <div class="col-12">
+      <h2>Nous contacter</h2>
+      <div class="row">
+        <div class="col-lg-5 col-sm-12">
+          <p>Appelez-nous, envoyez-nous un courriel ou arr�tez-vous au bureau, nous sommes toujours l’ pour vous!</p>
+
+
+          <form action="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/contact/post" method="post" novalidate="novalidate">
+            <input type="hidden" name="_token" value="RN2vJPwViLznoxlRXNANcyZbNEVsdwoJ36ju8lLj">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control" placeholder="Nom / Pr�nom">
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <textarea name="message" class="form-control" placeholder="Message"></textarea>
+            </div>
+            <div class="form-group pull-right">
+            <input type="submit" class="btn btn-primary" value="ENVOYER">
+            </div>
+          </form>
+
+        </div>
+        <div class="col-lg-7 col-sm-12">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12">
+
+              <div class="icon">
+                <i class="fa fa-envelope-o"></i>
+              </div>
+              <div class="content">
+                <p>T�l. : 01 64 17 12 11<br>
+                  <a href="mailto:dentistevaldeurope@gmail.com">Contactez-nous par e-mail</a></p>
+              </div>
+
+              <div class="icon">
+                <i class="fa fa-location-arrow"></i>
+              </div>
+              <div class="content">
+                <p>Centre Dentaire du Val dEurope
+                  <br>14 &amp; 26 cours du Danube
+                  <br>77700 SERRIS MARNE LA VALLEE
+                  <br>T�l. : 01 64 17 12 11
+                  <br><span class="fax">Fax :&nbsp;</span><span class="fax-number">01 64 17 13 23</span></p>
+              </div>
+
+            </div>
+            <div class="col-lg-6 col-sm-12">
+
+              <div class="icon">
+                <i class="fa fa-clock-o"></i>
+              </div>
+              <div class="content">
+                <p>Lun-Ven : 9h30 � 13h et 14h � 19h30
+                  <br>Sam : 9h30 � 15h
+                  <br>Ferm� le dimanche</p>
+                <p>Les URGENCES sont assur�es tous les jours SANS RENDEZ VOUS sous reserves de disponibilit�s</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid section6">
+  <div class="row">
+    <div class="col-12 map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.0844252735824!2d2.77666747699945!3d48.856600471331966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e61d2f556bfd8d%3A0x1dd36a743544136d!2sCentre%20Dentaire%20Val%20d&#39;Europe%20Serris!5e0!3m2!1sfr!2sfr!4v1716367287923!5m2!1sfr!2sfr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid section7">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <ul class="navbar-nav ml-auto">
+	<li class="nav-item active"><a class="nav-link" href="#top">Accueil</a></li>
+	<li class="nav-item"><a class="nav-link" href="#cabinet">Le cabinet</a></li>
+	<li class="nav-item"><a class="nav-link" href="#equipe">L'�quipe</a></li>
+	<li class="nav-item"><a class="nav-link external" target="_blank" href="https://selarl-n-s-et-associes.chirurgiens-dentistes.fr/">L'orthodontie</a></li>
+	<!-- <li class="nav-item"><a class="nav-link" href="#conseils">Fiches Conseils</a></li> -->
+	<li class="nav-item"><a class="nav-link" href="#contact">Nous contacter</a></li>
+	<li class="nav-item rdv"><a class="nav-link external" target="_blank" href="https://www.doctolib.fr/cabinet-dentaire/serris/centre-dentaire-durgence-val-deurope">RDV Doctolib</a></li>
+</ul>    </div>
+  </div>
+</div>
+
+<!-- Bootstrap core JavaScript -->
+<script src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/assets/jquery/jquery.min.js"></script>
+<script src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/assets/alertifyjs/alertify.min.js"></script>
+<script src="https://selarl-abitbol-neuman-et-associes.chirurgiens-dentistes.fr/assets/jdSlider/js/jquery.jdSlider-latest.min.js"></script>
+<script>
+$(document).ready(function(){
+  $('.navbar-nav li a, .intro a').on('click', function(event) {
+    if($(this).hasClass('external')) return;
+    var target = $(this).attr('href');
+    var speed = 750;
+    var offset = 80;
+    console.log(target);
+    $('html, body').animate( { scrollTop: $(target).offset().top - offset }, speed ); // Go
+    return false;
+  });
+
+  
+  $('a.dentistes').on('click', function(){
+    $('div.assistantes').hide();
+    $('div.dentistes').show().jdSlider({
+      isUse: true,
+      slideShow: 3,
+      slideToScroll: 3,
+      timingFunction: 'ease',
+      easing: 'swing',
+      interval: 3000,
+      isAuto: true,
+      isLoop: true,
+      isTouch: true,
+      isIndicate: true,
+      responsive: [{
+          viewSize: 768,
+          settings: {
+            slideShow: 1,
+            slideToScroll: 1,
+            isIndicate: false,
+          }
+        }
+      ]
+    });
+
+    setTimeout(function(){ $('div.dentistes').height('auto') },1000);
+    return false;
+  });
+
+  $('a.assistantes').on('click', function(){
+    $('div.dentistes').hide();
+    $('div.assistantes').show().jdSlider({
+      isUse: true,
+      slideShow: 3,
+      slideToScroll: 3,
+      timingFunction: 'ease',
+      easing: 'swing',
+      interval: 3000,
+      isAuto: true,
+      isLoop: true,
+      isTouch: true,
+      isIndicate: true,
+      responsive: [{
+          viewSize: 768,
+          settings: {
+            slideShow: 1,
+            slideToScroll: 1,
+            isIndicate: false,
+          }
+        }
+      ]
+    });
+
+    setTimeout(function(){ $('div.assistantes').height('auto') },1000);
+    return false;
+  });
+
+
+  $('a.dentistes').trigger('click');
+
+
+});
+</script>
+
+</body>
+</html>
+

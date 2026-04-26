@@ -1,0 +1,50 @@
+# Centre Dentaire du Val d'Europe
+
+Site officiel du Centre Dentaire du Val d'Europe, cabinet dentaire situé à Serris, Marne-la-Vallée, 77700.
+
+## Informations essentielles
+
+- Nom: Centre Dentaire du Val d'Europe
+- Adresse: 14 & 26 cours du Danube, 77700 Serris, Marne-la-Vallée, France
+- Téléphone: 01 64 17 12 11
+- Fax: 01 64 17 13 23
+- Email: dentistevaldeurope@gmail.com
+- Rendez-vous: https://www.doctolib.fr/cabinet-dentaire/serris/centre-dentaire-durgence-val-deurope
+
+## Horaires
+
+- Lundi à vendredi: 9h30 à 13h et 14h à 19h30
+- Samedi: 9h30 à 15h
+- Dimanche: fermé
+
+## Urgences
+
+Les urgences dentaires sont assurées tous les jours sans rendez-vous, sous réserve de disponibilités. Il est recommandé d'appeler le cabinet.
+
+## Soins mentionnés
+
+- Urgences dentaires
+- Implantologie dentaire
+- Parodontie
+- Prothèse dentaire
+- Esthétique dentaire
+- Prévention et hygiène bucco-dentaire
+- Soins conservateurs
+- Santé bucco-dentaire de l'enfant, de l'adulte et du senior
+
+## Pages principales
+
+- Accueil: /
+- Le cabinet: /cabinet.html
+- Soins dentaires: /soins.html
+- L'équipe: /equipe.html
+- Conseils patients: /conseils.html
+- Contact: /contact.html
+
+## Principe de contenu
+
+Les informations visibles reprennent les données du site existant: coordonnées, horaires, membres de l'équipe, photos actuelles, liens Doctolib et rubriques de conseils. Aucune photo fictive n'est utilisée.
+
+## Zone géographique
+
+Serris, Val d'Europe, Marne-la-Vallée, Chessy, Montévrain, Coupvray, Seine-et-Marne.

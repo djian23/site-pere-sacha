@@ -594,3 +594,30 @@ input:focus, textarea:focus, a:focus-visible, button:focus-visible {
   }
   .site-footer div:last-child { text-align: left; }
 }
+
+/* Animations de révélation */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Transitions globales */
+a, button, .nav-cta, .path-card, .service-card {
+  transition: all 0.3s ease;
+}
+
+.nav-cta:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.path-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}

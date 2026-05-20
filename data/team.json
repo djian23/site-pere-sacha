@@ -32,15 +32,7 @@
       "doctolib_url": "https://doctolib.fr/dentiste/serris/yael-attal",
       "photo": "assets/docteurs/scLfoeMe_1637499358.jpg"
     },
-    {
-      "id": "uzan-raphael",
-      "name": "Dr Raphaël UZAN",
-      "title": "Docteur en Chirurgie Dentaire",
-      "order_number": "",
-      "doctolib_url": "https://doctolib.fr/dentiste/serris/raphael-uzan-serris",
-      "photo": "assets/docteurs/xqB99mEp_1637498127.jpg"
-    },
-    {
+{
       "id": "norindr-eva",
       "name": "Dr Eva NORINDR",
       "title": "Docteur en Chirurgie Dentaire",
@@ -56,15 +48,7 @@
       "doctolib_url": "https://www.doctolib.fr/dentiste/serris/antoine-haddad-0d675be9-0b72-42ea-9d60-46bb2ae4150a",
       "photo": "assets/docteurs/BROzjhzJ_1637500011.jpg"
     },
-    {
-      "id": "caron-alexandre",
-      "name": "Dr Alexandre CARON",
-      "title": "Docteur en Chirurgie Dentaire",
-      "order_number": "",
-      "doctolib_url": "https://www.doctolib.fr/dentiste/serris/alexandre-caron",
-      "photo": "assets/docteurs/ZKxy2eoT_1637500328.jpg"
-    },
-    {
+{
       "id": "yamami-rayan",
       "name": "Dr Rayan YAMAMI",
       "title": "Docteur en Chirurgie Dentaire",
@@ -96,14 +80,6 @@
       "doctolib_url": "https://www.doctolib.fr/dentiste/serris/ruben-chetrit",
       "photo": "assets/docteurs/UWKLzBXs_1637526659.jpg"
     },
-    {
-      "id": "sayag-samuel",
-      "name": "Dr Samuel SAYAG",
-      "title": "Docteur en Chirurgie Dentaire",
-      "order_number": "",
-      "doctolib_url": "https://www.doctolib.fr/dentiste/serris/samuel-sayag",
-      "photo": "assets/docteurs/C6Yov4uw_1637924670.jpg"
-    }
   ],
   "staff": [
     {

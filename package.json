@@ -1,0 +1,18 @@
+{
+  "name": "centre-dentaire-val-deurope",
+  "version": "1.0.0",
+  "description": "Centre Dentaire du Val d'Europe - Site avec panneau d'administration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cheerio": "^1.0.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}

@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tableau de bord — Administration</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/admin/admin.css">
+</head>
+<body class="dashboard-page">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <img src="/assets/img/logo-blc.png" alt="Logo">
+      <div>
+        <span class="brand-name">Centre Dentaire</span>
+        <span class="brand-sub">Administration</span>
+      </div>
+    </div>
+
+    <nav class="sidebar-nav">
+      <button class="nav-item active" data-panel="pages">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+        Contenu des pages
+      </button>
+      <button class="nav-item" data-panel="team">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        Équipe
+      </button>
+      <button class="nav-item" data-panel="settings">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+        Paramètres
+      </button>
+    </nav>
+
+    <div class="sidebar-footer">
+      <span id="admin-username" class="sidebar-user"></span>
+      <button id="logout-btn" class="btn-logout" title="Se déconnecter">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
+        Déconnexion
+      </button>
+      <a href="/" target="_blank" class="btn-view-site">Voir le site →</a>
+    </div>
+  </aside>
+
+  <!-- Main -->
+  <div class="main-area">
+
+    <!-- ── PANEL: PAGES ── -->
+    <div id="panel-pages" class="panel active">
+      <div class="panel-header">
+        <h1>Contenu des pages</h1>
+        <p>Modifiez le texte de chaque section. Cliquez sur « Modifier » pour éditer.</p>
+      </div>
+
+      <div class="page-selector">
+        <button class="page-pill active" data-page="index">Accueil</button>
+        <button class="page-pill" data-page="cabinet">Le cabinet</button>
+        <button class="page-pill" data-page="soins">Soins</button>
+        <button class="page-pill" data-page="contact">Contact</button>
+      </div>
+
+      <div id="sections-list" class="sections-list">
+        <div class="loading-state">Chargement des sections…</div>
+      </div>
+    </div>
+
+    <!-- ── PANEL: TEAM ── -->
+    <div id="panel-team" class="panel">
+      <div class="panel-header">
+        <h1>Équipe</h1>
+        <button id="add-member-btn" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          Ajouter un membre
+        </button>
+      </div>
+
+      <div class="team-type-tabs">
+        <button class="team-tab active" data-type="doctors">Chirurgiens-dentistes</button>
+        <button class="team-tab" data-type="staff">Assistantes et personnel</button>
+      </div>
+
+      <div id="team-grid" class="team-grid-admin"></div>
+    </div>
+
+    <!-- ── PANEL: SETTINGS ── -->
+    <div id="panel-settings" class="panel">
+      <div class="panel-header">
+        <h1>Paramètres</h1>
+      </div>
+
+      <div class="settings-grid">
+        <div class="settings-card">
+          <h2>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 1 1 7.072 0l-.548.547A3.374 3.374 0 0 0 14 18.469V19a2 2 0 1 1-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+            API OpenRouter (IA)
+          </h2>
+          <p>Obtenez une clé gratuite sur <a href="https://openrouter.ai" target="_blank" rel="noopener">openrouter.ai</a>. Elle permet d'améliorer le texte avec l'IA (SEO + GEO).</p>
+          <div id="openrouter-status" class="key-status"></div>
+          <form id="openrouter-form">
+            <div class="field">
+              <label for="openrouter-key">Clé API OpenRouter</label>
+              <input id="openrouter-key" type="password" placeholder="sk-or-v1-…" autocomplete="off">
+            </div>
+            <button type="submit" class="btn btn-primary">Enregistrer la clé</button>
+          </form>
+        </div>
+
+        <div class="settings-card">
+          <h2>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            Changer le mot de passe
+          </h2>
+          <form id="password-form">
+            <div class="field">
+              <label for="current-pw">Mot de passe actuel</label>
+              <input id="current-pw" type="password" autocomplete="current-password" required>
+            </div>
+            <div class="field">
+              <label for="new-pw">Nouveau mot de passe</label>
+              <input id="new-pw" type="password" autocomplete="new-password" required minlength="6">
+            </div>
+            <div class="field">
+              <label for="confirm-pw">Confirmer</label>
+              <input id="confirm-pw" type="password" autocomplete="new-password" required>
+            </div>
+            <div id="pw-msg" class="form-msg hidden"></div>
+            <button type="submit" class="btn btn-primary">Changer le mot de passe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── MODAL SECTION EDITOR ── -->
+  <div id="section-modal" class="modal-overlay hidden" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h2 id="modal-title">Modifier la section</h2>
+        <button class="modal-close" id="section-modal-close" aria-label="Fermer">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="editor-area">
+          <label for="section-editor">Contenu HTML de la section</label>
+          <textarea id="section-editor" rows="10" spellcheck="true"></textarea>
+        </div>
+
+        <div class="ai-panel">
+          <button id="ai-improve-btn" class="btn btn-ai">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 1 1 7.072 0l-.548.547A3.374 3.374 0 0 0 14 18.469V19a2 2 0 1 1-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+            Améliorer avec l'IA (SEO/GEO)
+          </button>
+          <div id="ai-result-area" class="ai-result hidden">
+            <div class="ai-result-header">
+              <span>Texte optimisé par l'IA</span>
+              <button id="ai-apply-btn" class="btn btn-sm btn-success">Appliquer ce texte</button>
+            </div>
+            <div id="ai-result-text" class="ai-result-content"></div>
+          </div>
+          <div id="ai-loading" class="ai-loading hidden">
+            <div class="spinner"></div> Optimisation en cours…
+          </div>
+          <div id="ai-error" class="error-msg hidden"></div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button id="section-cancel-btn" class="btn btn-ghost">Annuler</button>
+        <button id="section-save-btn" class="btn btn-primary">Enregistrer</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── MODAL TEAM MEMBER ── -->
+  <div id="member-modal" class="modal-overlay hidden" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h2 id="member-modal-title">Ajouter un membre</h2>
+        <button class="modal-close" id="member-modal-close" aria-label="Fermer">✕</button>
+      </div>
+      <div class="modal-body member-form-body">
+        <input type="hidden" id="member-id">
+        <input type="hidden" id="member-type">
+
+        <div class="member-form-cols">
+          <div class="member-form-fields">
+            <div class="field" id="field-name">
+              <label for="member-name">Nom complet <span class="required">*</span></label>
+              <input id="member-name" type="text" required placeholder="Dr Prénom NOM">
+            </div>
+            <div class="field" id="field-title">
+              <label for="member-title">Titre</label>
+              <input id="member-title" type="text" placeholder="Docteur en Chirurgie Dentaire">
+            </div>
+            <div class="field" id="field-role">
+              <label for="member-role">Rôle <span class="required">*</span></label>
+              <input id="member-role" type="text" placeholder="Assistante dentaire diplômée">
+            </div>
+            <div class="field" id="field-specialty">
+              <label for="member-specialty">Spécialité / Responsabilité</label>
+              <input id="member-specialty" type="text" placeholder="Responsable Implantologie">
+            </div>
+            <div class="field" id="field-order">
+              <label for="member-order">N° inscription à l'ordre</label>
+              <input id="member-order" type="text" placeholder="774703854">
+            </div>
+            <div class="field" id="field-doctolib">
+              <label for="member-doctolib">Lien Doctolib</label>
+              <input id="member-doctolib" type="url" placeholder="https://www.doctolib.fr/…">
+            </div>
+          </div>
+
+          <div class="member-photo-col">
+            <label>Photo</label>
+            <div class="photo-upload-zone" id="photo-drop-zone">
+              <img id="photo-preview" class="hidden" alt="Aperçu">
+              <div id="photo-placeholder">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+                <span>Cliquer ou glisser une image</span>
+                <small>JPG, PNG, WebP — max 5 Mo</small>
+              </div>
+              <input type="file" id="photo-input" accept="image/*" style="display:none">
+            </div>
+            <div id="photo-upload-status" class="photo-status hidden"></div>
+          </div>
+        </div>
+
+        <div id="member-error" class="error-msg hidden"></div>
+      </div>
+      <div class="modal-footer">
+        <button id="member-cancel-btn" class="btn btn-ghost">Annuler</button>
+        <button id="member-save-btn" class="btn btn-primary">Enregistrer</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="/admin/admin.js"></script>
+</body>
+</html>

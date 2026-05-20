@@ -1,0 +1,187 @@
+{
+  "doctors": [
+    {
+      "id": "abitbol-alain",
+      "name": "Dr Alain ABITBOL",
+      "title": "Docteur en Chirurgie Dentaire",
+      "order_number": "774703854",
+      "doctolib_url": "https://www.doctolib.fr/dentiste/serris/alain-abitbol-serris",
+      "photo": "assets/docteurs/U5WPr7Iy_1636496093.jpg"
+    },
+    {
+      "id": "chea-ros",
+      "name": "Dr Ros CHEA",
+      "title": "Docteur en Chirurgie Dentaire",
+      "order_number": "774707103",
+      "doctolib_url": "https://doctolib.fr/dentiste/serris/ros-chea",
+      "photo": "assets/docteurs/Cr1pMobd_1637676583.jpg"
+    },
+    {
+      "id": "benisty-gaelle",
+      "name": "Dr Gaëlle BENISTY",
+      "title": "Docteur en Chirurgie Dentaire",
+      "order_number": "774706204",
+      "doctolib_url": "https://doctolib.fr/dentiste/serris/gaelle-benisty",
+      "photo": "assets/docteurs/DrGaelleBENISTY.jpg"
+    },
+    {
+      "id": "attal-yael",
+      "name": "Dr Yael ATTAL",
+      "title": "Docteur en Chirurgie Dentaire",
+      "order_number": "774706410",
+      "doctolib_url": "https://doctolib.fr/dentiste/serris/yael-attal",
+      "photo": "assets/docteurs/scLfoeMe_1637499358.jpg"
+    },
+    {
+      "id": "uzan-raphael",
+      "name": "Dr Raphaël UZAN",
+      "title": "Docteur en Chirurgie Dentaire",
+      "order_number": "",
+      "doctolib_url": "https://doctolib.fr/dentiste/serris/raphael-uzan-serris",
+      "photo": "assets/docteurs/xqB99mEp_1637498127.jpg"
+    },
+    {
+      "id": "norindr-eva",
+      "name": "Dr Eva NORINDR",
+      "title": "Docteur en Chirurgie Dentaire",
+      "order_number": "",
+      "doctolib_url": "https://doctolib.fr/dentiste/le-bourget/eva-norindr",
+      "photo": "assets/docteurs/5OMdAyhY_1637498339.jpg"
+    },
+    {
+      "id": "haddad-antoine",
+      "name": "Dr Antoine HADDAD",
+      "title": "Docteur en Chirurgie Dentaire",
+      "order_number": "",
+      "doctolib_url": "https://www.doctolib.fr/dentiste/serris/antoine-haddad-0d675be9-0b72-42ea-9d60-46bb2ae4150a",
+      "photo": "assets/docteurs/BROzjhzJ_1637500011.jpg"
+    },
+    {
+      "id": "caron-alexandre",
+      "name": "Dr Alexandre CARON",
+      "title": "Docteur en Chirurgie Dentaire",
+      "order_number": "",
+      "doctolib_url": "https://www.doctolib.fr/dentiste/serris/alexandre-caron",
+      "photo": "assets/docteurs/ZKxy2eoT_1637500328.jpg"
+    },
+    {
+      "id": "yamami-rayan",
+      "name": "Dr Rayan YAMAMI",
+      "title": "Docteur en Chirurgie Dentaire",
+      "order_number": "",
+      "doctolib_url": "https://www.doctolib.fr/dentiste/serris/rayan-yamami",
+      "photo": "assets/docteurs/3BmfHfZp_1637500510.jpg"
+    },
+    {
+      "id": "rak-elsa",
+      "name": "Dr Elsa RAK",
+      "title": "Docteur en Chirurgie Dentaire",
+      "order_number": "",
+      "doctolib_url": "https://www.doctolib.fr/dentiste/serris/elsa-rak",
+      "photo": "assets/docteurs/zQ5tyauq_1637676314.jpg"
+    },
+    {
+      "id": "bitton-salome",
+      "name": "Dr Salomé BITTON",
+      "title": "Docteur en Chirurgie Dentaire",
+      "order_number": "",
+      "doctolib_url": "https://www.doctolib.fr/dentiste/le-bourget/salome-bitton?pid=practice-62667",
+      "photo": "assets/docteurs/U1LQ0DMb_1637676406.jpg"
+    },
+    {
+      "id": "chetrit-ruben",
+      "name": "Dr Ruben CHETRIT",
+      "title": "Docteur en Chirurgie Dentaire",
+      "order_number": "",
+      "doctolib_url": "https://www.doctolib.fr/dentiste/serris/ruben-chetrit",
+      "photo": "assets/docteurs/UWKLzBXs_1637526659.jpg"
+    },
+    {
+      "id": "sayag-samuel",
+      "name": "Dr Samuel SAYAG",
+      "title": "Docteur en Chirurgie Dentaire",
+      "order_number": "",
+      "doctolib_url": "https://www.doctolib.fr/dentiste/serris/samuel-sayag",
+      "photo": "assets/docteurs/C6Yov4uw_1637924670.jpg"
+    }
+  ],
+  "staff": [
+    {
+      "id": "angelitia",
+      "name": "Angélitia",
+      "role": "Assistante dentaire",
+      "specialty": "Responsable de site",
+      "photo": "assets/assistantes/wD813eak_1548869455.jpg"
+    },
+    {
+      "id": "celine",
+      "name": "Céline",
+      "role": "Assistante dentaire diplômée",
+      "specialty": "",
+      "photo": "assets/assistantes/sO9rqbBJ_1548869494.jpg"
+    },
+    {
+      "id": "channarie",
+      "name": "Channarie",
+      "role": "Assistante dentaire diplômée",
+      "specialty": "",
+      "photo": "assets/assistantes/SIQdYkW9_1548869526.jpg"
+    },
+    {
+      "id": "elodie",
+      "name": "Elodie",
+      "role": "Assistante dentaire diplômée",
+      "specialty": "Responsable Implantologie / Chirurgie",
+      "photo": "assets/assistantes/8eRzfxb6_1548869646.jpg"
+    },
+    {
+      "id": "isabelle",
+      "name": "Isabelle",
+      "role": "Assistante administrative",
+      "specialty": "",
+      "photo": "assets/assistantes/AjIRG8sd_1548869697.jpg"
+    },
+    {
+      "id": "lolita",
+      "name": "Lolita",
+      "role": "Assistante dentaire diplômée",
+      "specialty": "Responsable de site",
+      "photo": "assets/assistantes/DvPqQ53H_1637497490.jpg"
+    },
+    {
+      "id": "lucette",
+      "name": "Lucette",
+      "role": "Assistante dentaire diplômée",
+      "specialty": "Responsable générale / DRH",
+      "photo": "assets/assistantes/ewRbIY97_1548869858.jpg"
+    },
+    {
+      "id": "melissa",
+      "name": "Mélissa",
+      "role": "Assistante dentaire",
+      "specialty": "Responsable",
+      "photo": "assets/assistantes/XCDBS4zB_1548869911.jpg"
+    },
+    {
+      "id": "oceane",
+      "name": "Océane",
+      "role": "Assistante dentaire",
+      "specialty": "",
+      "photo": "assets/assistantes/REJtD5Lp_1548869932.jpg"
+    },
+    {
+      "id": "stephanie",
+      "name": "Stéphanie",
+      "role": "Assistante dentaire",
+      "specialty": "",
+      "photo": "assets/assistantes/kHmpDzXq_1548869956.jpg"
+    },
+    {
+      "id": "jordane",
+      "name": "Jordane",
+      "role": "Aide dentaire",
+      "specialty": "",
+      "photo": ""
+    }
+  ]
+}

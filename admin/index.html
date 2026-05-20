@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Connexion — Administration</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/admin/admin.css">
+</head>
+<body class="login-page">
+  <div class="login-card">
+    <div class="login-logo">
+      <img src="/assets/img/logo-blc.png" alt="Centre Dentaire du Val d'Europe">
+    </div>
+    <h1>Administration</h1>
+    <p class="login-subtitle">Centre Dentaire du Val d'Europe</p>
+
+    <form id="login-form" novalidate>
+      <div class="field">
+        <label for="username">Identifiant</label>
+        <input id="username" type="text" name="username" autocomplete="username" required autofocus>
+      </div>
+      <div class="field">
+        <label for="password">Mot de passe</label>
+        <input id="password" type="password" name="password" autocomplete="current-password" required>
+      </div>
+      <div id="login-error" class="error-msg hidden"></div>
+      <button type="submit" class="btn btn-primary btn-full" id="login-btn">Se connecter</button>
+    </form>
+
+    <p class="login-back"><a href="/">← Retour au site</a></p>
+  </div>
+
+  <script>
+    const form = document.getElementById('login-form');
+    const errEl = document.getElementById('login-error');
+    const btn = document.getElementById('login-btn');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      errEl.classList.add('hidden');
+      btn.disabled = true;
+      btn.textContent = 'Connexion…';
+
+      try {
+        const res = await fetch('/admin/api/login', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            username: form.username.value.trim(),
+            password: form.password.value
+          })
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || 'Erreur inconnue');
+        window.location.href = '/admin/dashboard';
+      } catch (err) {
+        errEl.textContent = err.message;
+        errEl.classList.remove('hidden');
+        btn.disabled = false;
+        btn.textContent = 'Se connecter';
+      }
+    });
+  </script>
+</body>
+</html>

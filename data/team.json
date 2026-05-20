@@ -73,6 +73,15 @@
       "photo": "assets/docteurs/U1LQ0DMb_1637676406.jpg"
     },
     {
+      "id": "dadou",
+      "name": "Dadou",
+      "title": "Développeur de la team",
+      "order_number": "",
+      "doctolib_url": "",
+      "photo": "",
+      "specialty": "Il est très fort en IA"
+    },
+    {
       "id": "chetrit-ruben",
       "name": "Dr Ruben CHETRIT",
       "title": "Docteur en Chirurgie Dentaire",
